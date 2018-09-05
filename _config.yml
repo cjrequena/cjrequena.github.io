@@ -1,0 +1,60 @@
+# Site settings
+title:          Tale
+description:    "Minimal Jekyll theme for storytellers"
+baseurl:        ""
+url:            "https://cjrequena.github.io"
+
+# Author
+author:
+  name:         Carlos Requena
+  url:          https://cjrequena.github.io
+  email:        carlosjose.requena@gmail.com
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: cjrequena-blog
+
+# Social icons
+show_social_icons: true
+github_username: cjrequena
+reddit_username: cjrequena
+bitbucket_username:
+stackoverflow_id:
+twitter_username: cjrequena
+skype_username:
+steam_nickname:
+google_plus_id:
+linkedin_username: cjrequena
+angellist_username:
+medium_id: cjrequena
+bitcoin_url:
+paypal_url:
+flattr_button:
+telegram_username:
+vk_id:
+
+# Post sharing icons
+show_sharing_icons: true
+# Change to 'true' to enable individual icons
+share_facebook: true
+share_twitter: true
+share_googleplus: true
+share_linkedin: true
+share_digg: true
+share_tumblr: true
+share_reddit: true
+share_stumbleupon: true
+share_hackernews: true
+text.share_buttons.text: "UN SUPER TEXTO"
+
+# Build settings
+markdown:       kramdown
+sass:
+  sass_dir:     _sass
+  style:        compressed
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  # - jemoji #Uncomment this to allow emoji in your post
+permalink:      /:year-:month-:day/:title
+paginate:       5

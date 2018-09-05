@@ -1,0 +1,36 @@
+.share-icons-center {
+  text-align: center;
+  float: none;
+}
+
+.share-icons-left {
+  text-align: left;
+  float: none;
+}
+
+.share-icons-right {
+  text-align: right;
+  float: none;
+}
+
+.share-icons {
+  font-size: 1.50rem;
+  padding: 0.5em 0 0 0;
+  margin: 0 auto;
+}
+
+.share-icons a.fa {
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 0.2em;
+  color: $default-color;
+}
+
+.share-icons a.fa:hover {
+  opacity: 1;
+}
+
+.share-icons iframe[title=Flattr] {
+  position: relative;
+  top: 0.1em;
+}
