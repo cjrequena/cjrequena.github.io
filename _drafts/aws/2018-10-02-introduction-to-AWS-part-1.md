@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An Introduction to Amazon Web Services (AWS) Part 1"
+title: "[AWS] An Introduction to Amazon Web Services Part 1"
 author: "Carlos Requena"
 tags:
    - Amazon Web Services, AWS, Cloud Computing
