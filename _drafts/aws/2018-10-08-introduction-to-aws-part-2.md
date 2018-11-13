@@ -128,38 +128,38 @@ run their workloads.
 These compute and networking services can be leveraged with the storage, database, and application services to provide a 
 complete solution for computing, query processing, and storage across a wide range of applications.
 
+  - [Amazon Simple Storage Service (Amazon S3)](https://aws.amazon.com/s3/)
+  - [Amazon Glacier](https://aws.amazon.com/glacier/)
   - [Amazon Elastic Compute Cloud (Amazon EC2)](https://aws.amazon.com/ec2/)
+  - [Amazon Elastic Block Store (Amazon EBS)](https://aws.amazon.com/ebs/)
   - [AWS Lambda](https://aws.amazon.com/lambda/)
   - [Auto Scaling](https://aws.amazon.com/autoscaling/)
   - [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/)
   - [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
   - [Amazon Virtual Private Cloud (Amazon VPC)](https://aws.amazon.com/vpc/)
   - [AWS Direct Connect](https://aws.amazon.com/directconnect/)
-  - Amazon Route 53
-  - Amazon Simple Storage Service (Amazon S3)
-  - Amazon Glacier
-  - Amazon Elastic Block Store (Amazon EBS)
-  - AWS Storage Gateway
-  - Amazon CloudFront
-  - Amazon Relational Database Service (Amazon RDS)
-  - Amazon DynamoDB
-  - Amazon Redshift
-  - Amazon ElastiCache
-  - Management Tools
-  - Amazon CloudWatch
-  - AWS CloudFormation
-  - AWS CloudTrail
-  - AWS Config
-  - Security and Identity
-  - AWS Identity and Access Management (IAM)
-  - AWS Key Management Service (KMS)
-  - AWS Directory Service
-  - AWS Certificate Manager
-  - AWS Web Application Firewall (WAF)
-  - Amazon API Gateway
-  - Amazon Elastic Transcoder
-  - Amazon Simple Notification Service (Amazon SNS)
-  - Amazon Simple Email Service (Amazon SES)
-  - Amazon Simple Workflow Service (Amazon SWF)
-  - Amazon Simple Queue Service (Amazon SQS)
+  - [Amazon Route 53](https://aws.amazon.com/route53/)
+  - [AWS Storage Gateway](https://aws.amazon.com/storagegateway/)
+  - [Amazon CloudFront](https://aws.amazon.com/cloudfront/)
+  - [Amazon Relational Database Service (Amazon RDS)](https://aws.amazon.com/rds/)
+  - [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
+  - [Amazon Redshift](https://aws.amazon.com/redshift/)
+  - [Amazon ElastiCache](https://aws.amazon.com/elasticache/)
+  - [Management Tools](https://aws.amazon.com/products/management-tools/)
+  - [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/)
+  - [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
+  - [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)
+  - [AWS Config](https://aws.amazon.com/config/)
+  - [Security and Identity](https://aws.amazon.com/security/)
+  - [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)
+  - [AWS Key Management Service (KMS)](https://aws.amazon.com/kms/)
+  - [AWS Directory Service](https://aws.amazon.com/directoryservice/)
+  - [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
+  - [AWS Web Application Firewall (WAF)](https://aws.amazon.com/waf/)
+  - [Amazon API Gateway](https://aws.amazon.com/api-gateway/)
+  - [Amazon Elastic Transcoder](https://aws.amazon.com/elastictranscoder/)
+  - [Amazon Simple Notification Service (Amazon SNS)](https://aws.amazon.com/sns/)
+  - [Amazon Simple Email Service (Amazon SES)](https://aws.amazon.com/ses/)
+  - [Amazon Simple Workflow Service (Amazon SWF)](https://aws.amazon.com/swf/)
+  - [Amazon Simple Queue Service (Amazon SQS)](https://aws.amazon.com/sqs/)
  
