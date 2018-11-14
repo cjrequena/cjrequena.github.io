@@ -32,7 +32,7 @@ using Amazon’s infrastructure. First was Simple Storage Service (S3), followed
  rental and hosting service. EC2 has been added to over the years, with various instance types offering different 
  configurations of CPU, memory, storage and networking capacity, for example.
 
-![]({{ site.baseurl }}/assets/images/VPC-800x500.png){: height="40%" width="40%"}
+![]({{ site.baseurl }}/assets/images/aws/vpc-800x500.png){: height="40%" width="40%"}
 
 ***In 2009,*** The Virtual Private Cloud was launched as part of AWS ambitions to gain business from more conservative 
 companies by giving them a private, self-contained partition of the AWS data centre.
@@ -46,7 +46,7 @@ and AWS also holds a yearly customer event in the UK.
 ***In 2015,*** AWS released the Snowball, a 50 terabyte appliance allowing large enterprise customers to migrate large 
 volumes of data into the AWS cloud by shipping the appliance between their offices and AWS data centres.
 
-![]({{ site.baseurl }}/assets/images/snowmobile.png)
+![]({{ site.baseurl }}/assets/images/aws/snowmobile.png)
 
 ***In 2016,*** AWS rolled out the Snowmobile, an 18-wheel truck filled with hard drives that can store up to 100 PB of 
 data and supports data transfer at a rate of 1 Tb/second across multiple 40 Gb/second connections.
