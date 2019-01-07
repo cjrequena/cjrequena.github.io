@@ -3,7 +3,7 @@ layout: post
 title: "[AWS] An Introduction to Amazon Web Services Part 2"
 author: "Carlos Requena"
 tags:
-   - Amazon Web Services, AWS, Cloud Computing
+   - Amazon Web Services (AWS), Cloud Computing
 ---
 
 # AWS Fundamentals
@@ -66,7 +66,7 @@ AWS Well-Architected Framework Principles
 The AWS Well-Architected framework includes strategies to help you to obtain guidance to produce stable and efficient 
 systems so you can focus on functional requirements.
 
-You can get started by downloading the AWS Well-Architected Framework whitepaper PDF (https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
+You can get started by downloading the AWS Well-Architected Framework whitepaper [PDF](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
 
 ## AWS Well-Architected Framework Pillars
 
