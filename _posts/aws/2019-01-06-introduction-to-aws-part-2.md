@@ -3,7 +3,7 @@ layout: post
 title: "[AWS] An Introduction to Amazon Web Services Part 2"
 author: "Carlos Requena"
 tags:
-   - Amazon Web Services (AWS), Cloud Computing
+   - Amazon Web Services (AWS)
 ---
 
 # AWS Fundamentals

@@ -3,7 +3,7 @@ layout: post
 title: "[AWS] An Introduction to Amazon Web Services Part 1"
 author: "Carlos José Requena Jiménez"
 tags:
-   - Amazon Web Services (AWS), Cloud Computing
+   - Amazon Web Services (AWS)
 ---
 
 ***In 2006,*** Amazon Web Services Inc, (AWS) began offering IT infrastructure services to businesses in the form of web
