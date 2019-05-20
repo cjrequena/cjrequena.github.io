@@ -19,7 +19,7 @@ procesan las transacciones de bitcoin.
 Cualquier participante en la red bitcoin ejecutando un nodo completo puede operar como minero, usando la capacidad de computo y procesamiento de sus (Ordenadores/Computadores) para 
 verificar y grabar transacciones.
 
-En promedio, cada 10 minutos un minero es capaz de de validar y verificar las transacciones de bitcoin seleccionadas de un pool de transacciones no confirmadas y las cuales son
+En promedio, cada 10 minutos un minero es capaz de validar y verificar las transacciones de bitcoin seleccionadas de un pool de transacciones no confirmadas y las cuales son
 empaquetadas en un bloque. El minero es premiado con nuevos bitcoins por el trabajo realizado al confirmar las transacciones empaquetadas en el bloque (El minado del bloque), a día 
 de hoy el premio por bloque minado es de 12,5 bitcoins, sin embargo este premio es reducido e la mitad cada 210.000 bloques, o aproximadamente cada cuatro años en un 
 evento llamado halvening o halving del bitcoin. El próximo halving se estima que ocurra el 20 de mayo de 2020. 
