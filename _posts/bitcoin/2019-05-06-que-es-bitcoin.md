@@ -21,7 +21,7 @@ verificar y grabar transacciones.
 
 En promedio, cada 10 minutos un minero es capaz de validar y verificar las transacciones de bitcoin seleccionadas de un pool de transacciones no confirmadas y las cuales son
 empaquetadas en un bloque. El minero es premiado con nuevos bitcoins por el trabajo realizado al confirmar las transacciones empaquetadas en el bloque (El minado del bloque), a día 
-de hoy el premio por bloque minado es de 12,5 bitcoins, sin embargo este premio es reducido e la mitad cada 210.000 bloques, o aproximadamente cada cuatro años en un 
+de hoy el premio por bloque minado es de 12,5 bitcoins, sin embargo este premio es reducido a la mitad cada 210.000 bloques, o aproximadamente cada cuatro años en un 
 evento llamado halvening o halving del bitcoin. El próximo halving se estima que ocurra el 20 de mayo de 2020. 
 
 Cuando se creó Bitcoin en 2009, la recompensa inicial era de 50 bitcoins. En Noviembre de 2012, bajó a 25 bitcoins. En Julio del 2016, bajó a 12,5 bitcoins y la próxima reducción 
@@ -32,11 +32,11 @@ El bloque minado y sus transacciones confirmadas son difundidas a todos los nodo
 En esencia la minería de bitcoin descentraliza las funciones de la emisión y liquidación de monedas eliminando la necesidad de cualquier banco central.
 
 El protocolo Bitcoin incluye algoritmos integrados que regulan la minería a través de la red. La dificultad de las tareas de los mineros (La complejidad del problema matemático) 
-puede ser ajustado dinámicamente con el objetivo de que un minero sea capaz de minar un bloque cada 10 minutos en promedio si importar cuantos mineros o cuanta capacidad de procesamiento
+puede ser ajustado dinámicamente con el objetivo de que un minero sea capaz de minar un bloque cada 10 minutos en promedio sin importar cuantos mineros o cuanta capacidad de procesamiento
 haya en cualquier momento.
 
 La dificultad de minado es ajustada cada 2016 bloques (~2 semanas) basado en una ecuación o algoritmo que calcula el tiempo promedio que tomó minar los últimos 2016 bloques. La 
-dificultad disminuye si el promedio de tiempo es mayor a 10 minutos y aumenta si el promedio de tiempos es menos a 10 minutos.
+dificultad disminuye si el promedio de tiempo es mayor a 10 minutos y aumenta si el promedio de tiempo es menor a 10 minutos.
 
 Bitcoin puede ser comprado, vendido, e intercambiado por otras monedas usando exchages especializados. Bitcoin en un sentido es el dinero perfecto para internet porque es seguro, 
 rápido y sin fronteras.
@@ -52,7 +52,7 @@ En resumen Bitcoin consiste de:
 
 En 2008, Satoshi Nakamoto escribió un artículo sobre bitcoin, Bitcoin: A Peer-to-Peer Electronic Cash System. [Bitcoin White Paper](https://bitcoin.org/bitcoin.pdf)
 
-Bitcoin se basa en décadas de investigación criptográfica como la investigación en árboles de Merkle, funciones hash, criptografía de clave pública y firmas digitales. 
+Bitcoin se basa en décadas de investigación criptográfica como la investigación en árboles de Merkle, funciones hash, criptografía de clave pública y privada, firmas digitales. 
 
 Además, ideas como BitGold, b-money, hashcash y sellado criptográfico de tiempo proporcionaron las bases para la invención de bitcoin. 
 
