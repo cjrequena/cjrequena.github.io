@@ -338,13 +338,8 @@ that has a large number of distinct values and ensure that the values are reques
 uniformly. Adding a random element that can be calculated or hashed is one common
 technique to improve partition distribution.
 
-
-
-## References
-
 >  References
 >
-> * [Test-driven development. (2016, November 20). In Wikipedia, The Free Encyclopedia. Retrieved 23:45, November 20, 2016](https://en.wikipedia.org/w/index.php?title=Test-driven_development&oldid=750634597)
 > * [Amazon DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
 > * [Data modeling with DynamoDB](https://brewing.codes/2017/11/13/dynamo-data-modeling/)
 > * [Should you use DynamoDB?](https://brewing.codes/2017/11/06/dynamodb-overview/)
