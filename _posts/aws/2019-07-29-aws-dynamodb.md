@@ -342,13 +342,13 @@ technique to improve partition distribution.
 
 ## References
 
-- [Amazon DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
-
-- [Data modeling with DynamoDB](https://brewing.codes/2017/11/13/dynamo-data-modeling/)
-
-- [Should you use DynamoDB?](https://brewing.codes/2017/11/06/dynamodb-overview/)
-
-- [Choosing the Right DynamoDB Partition Key](https://aws.amazon.com/es/blogs/database/choosing-the-right-dynamodb-partition-key/)
+>  References
+>
+> * [Test-driven development. (2016, November 20). In Wikipedia, The Free Encyclopedia. Retrieved 23:45, November 20, 2016](https://en.wikipedia.org/w/index.php?title=Test-driven_development&oldid=750634597)
+> * [Amazon DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
+> * [Data modeling with DynamoDB](https://brewing.codes/2017/11/13/dynamo-data-modeling/)
+> * [Should you use DynamoDB?](https://brewing.codes/2017/11/06/dynamodb-overview/)
+> * [Choosing the Right DynamoDB Partition Key](https://aws.amazon.com/es/blogs/database/choosing-the-right-dynamodb-partition-key/)
 
 
 
