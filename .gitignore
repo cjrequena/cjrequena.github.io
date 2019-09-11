@@ -9,6 +9,7 @@ _site
 *.gem
 .bundle
 Gemfile.lock
+raft
 
 #-----------------
 # IntelliJ Idea
