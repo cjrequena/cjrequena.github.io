@@ -8,7 +8,7 @@ tags:
 <div style="text-align:center"><span style="color:red;font-weight: bold">"Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more." </span> <span style="color:black;font-weight: bold">--Nikola Tesla.</span></div>
 
 
-# Elliptic curve cryptography (ECC)**
+# Elliptic curve cryptography (ECC)
 
 **Elliptic curve cryptography (ECC)** is based on the discrete logarithm problem that is based on elliptic curves over finite fields (Galois fields).
 The main benefit of ECC over other types of public key algorithms is that it needs a smaller key size while providing the same level of security as, f
