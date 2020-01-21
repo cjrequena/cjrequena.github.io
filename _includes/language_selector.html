@@ -1,0 +1,27 @@
+<div>
+    <div>
+        {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+        {% for post in posts %}
+        <a class="fa" href="{{ post.url }}" >
+            {% if post.lang == 'es' %}
+            <img src=" /assets/icons/flags/es.svg" width="20px" height="15px"/>
+            {% endif %}
+            {% if post.lang == 'en' %}
+            <img src=" /assets/icons/flags/us.svg" width="20px" height="15px"/>
+            {% endif %}
+        </a>
+        {% endfor %}
+
+        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for page in pages %}
+        <a class="fa" href="{{ page.url }}" >
+            {% if page.lang == 'es' %}
+            <img src=" /assets/icons/flags/es.svg" width="20px" height="15px"/>
+            {% endif %}
+            {% if page.lang == 'en' %}
+            <img src=" /assets/icons/flags/us.svg" width="20px" height="15px"/>
+            {% endif %}
+        </a>
+        {% endfor %}
+    </div>
+</div>

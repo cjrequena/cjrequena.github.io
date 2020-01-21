@@ -10,6 +10,7 @@ _site
 .bundle
 Gemfile.lock
 raft
+.jekyll-cache/
 
 #-----------------
 # IntelliJ Idea

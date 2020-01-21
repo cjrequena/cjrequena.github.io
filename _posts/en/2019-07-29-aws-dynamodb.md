@@ -2,8 +2,10 @@
 layout: post
 title: "[AWS] Amazon DynamoDB"
 author: "Carlos Requena"
+lang: en
+ref: aws-dynamodb
 tags:
-   - Amazon Web Services (AWS)
+   - "[AWS] Amazon Web Services"
 ---
 
 <span style="color:red">**"Insanity: doing the same thing over and over again and expecting different results." ― Albert Einstein**</span>

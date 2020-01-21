@@ -3,6 +3,8 @@ layout: post
 title: "About"
 author: "Carlos Requena"
 permalink: /about/
+lang: en
+ref: about
 ---
 
 Writing about coding, maths, distributed systems, performance optimisation, blockchain, cloud computing.

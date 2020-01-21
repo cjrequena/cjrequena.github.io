@@ -2,8 +2,10 @@
 layout: post
 title: "[BITCOIN] Keys and  Addresses"
 author: "Carlos Requena"
+lang: en
+ref: bitcoin-keys-and-addresses
 tags:
-   - Bitcoin
+   - "Bitcoin"
 ---
 <div style="text-align:center"><span style="color:red;font-weight: bold">"Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more." </span> <span style="color:black;font-weight: bold">--Nikola Tesla.</span></div>
 

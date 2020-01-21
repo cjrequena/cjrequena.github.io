@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "[BITCOIN] ¿Qué es Bitcoin? [Spanish]"
+title: "[BITCOIN] ¿Qué es Bitcoin?"
 author: "Carlos Requena"
+lang: es
+ref: what-is-bitcoin
 tags:
-   - Bitcoin [Spanish]
+    - "Bitcoin"
 ---
 
 <div style="text-align:center"><span style="color:red;font-weight: bold"> La tecnología debe ser usada para liberar al individuo! </span></div>

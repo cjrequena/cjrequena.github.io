@@ -2,8 +2,10 @@
 layout: post
 title: "[AWS] An Introduction to Amazon Web Services Part 2"
 author: "Carlos Requena"
-tags:
-   - Amazon Web Services (AWS)
+lang: en
+ref: introduction-to-aws-part-2
+tags: 
+    -  "[AWS] Amazon Web Services"
 ---
 
 # AWS Fundamentals

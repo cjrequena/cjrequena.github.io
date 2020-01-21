@@ -2,8 +2,10 @@
 layout: post
 title: "[CRYPTOGRAPHY] Cryptography Foundations"
 author: "Carlos Requena"
+lang: en
+ref: cryptography-foundations
 tags:
-   - Cryptography | Security
+   - Cryptography
 ---
 
 <div style="text-align:center"><span style="color:red;font-weight: bold">"It is not knowledge, but the act of learning, not possession but the act of getting there, which grants the greatest enjoyment." --Carl Friedrich Gauss

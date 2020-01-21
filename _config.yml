@@ -10,6 +10,20 @@ author:
   url:          https://cjrequena.github.io
   email:        carlosjose.requena@gmail.com
 
+data.text.index.coming_soon: COMING SOON
+
+# Build settings
+markdown:       kramdown
+sass:
+  sass_dir:     _sass
+  style:        compressed
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+permalink:      /:year-:month-:day/:title
+paginate:       369
+enable_mathjax: true
+
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname: cjrequena-blog
@@ -46,15 +60,3 @@ share_reddit: true
 share_stumbleupon: true
 share_hackernews: true
 text.share_buttons.text: "UN SUPER TEXTO"
-
-# Build settings
-markdown:       kramdown
-sass:
-  sass_dir:     _sass
-  style:        compressed
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  # - jemoji #Uncomment this to allow emoji in your post
-permalink:      /:year-:month-:day/:title
-paginate:       5
