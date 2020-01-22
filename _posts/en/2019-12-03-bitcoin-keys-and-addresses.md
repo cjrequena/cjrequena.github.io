@@ -9,6 +9,19 @@ tags:
 ---
 <div style="text-align:center"><span style="color:red;font-weight: bold">"Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more." </span> <span style="color:black;font-weight: bold">--Nikola Tesla.</span></div>
 
+<br>
+You may have heard that Bitcoin is based on cryptography, which is a branch of mathematics used extensively in computer security. Cryptography means
+"secret writing" in Greek, but the science of cryptography encompasses more than just secret writing, which is referred to as encryption.
+Cryptography can also be used to prove knowledge of a secret without revealing that secret (digital signature), or prove the authenticity of data
+(digital fingerprint). These types of cryptographic proofs are the mathematical tools critical to bitcoin and used extensively in bitcoin applications.
+
+Ironically, encryption is not an important part of bitcoin, as its communications and transaction data are not encrypted and do not need to be encrypted
+to protect the funds.   [mastering bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc#keys-addresses)
+
+ECDSA (‘Elliptic Curve Digital Signature Algorithm’) is the cryptography behind private and public keys used in Bitcoin. It consists of combining the math behind finite fields 
+and elliptic curves to create one way equations, meaning you can choose your private key “Pick a number between 1 and $$2^{256}$$.” and easily calculate your public key 
+(some other number). However, You can not take the public key and easily calculate their private key. In fact, for Bitcoin it would take trillions of computers trillions of years 
+of continuous guessing of different private keys to figure out which one creates a given public key. [How does ECDSA work in Bitcoin](https://medium.com/@blairlmarshall/how-does-ecdsa-work-in-bitcoin-7819d201a3ec)
 
 # Elliptic curve cryptography (ECC)
 
@@ -18,75 +31,19 @@ or example, RSA.
 
 An elliptic curve will simply be the set of points described by the equation:
 
-**y^2 = x^3 + ax + b** where **4a^3 + 27b^2 \ne 0**
+$$
+\displaystyle y^{2} \ =\ x^{3} \ +\ ax\ +\ b\ where\ 4a^{3} \ +\ 27b^{2} \ \neq \ 0
+$$
 
 (this is required to exclude [singular curves](https://en.wikipedia.org/wiki/Singularity_(mathematics))) The equation above is what is called Weierstrass normal
 form for elliptic curves.
 
 If we want to explicitly take into account the point at infinity, we can refine our definition of elliptic curve as follows:
 
-<math display="block">
-  <mrow>
-    <mo>{</mo>
-    <mo stretchy="false">(</mo>
-    <mi>x</mi>
-    <mo>,</mo>
-    <mi>y</mi>
-    <mo stretchy="false">)</mo>
-    <mo>&#x2208;</mo>
-    <msup>
-      <mrow class="MJX-TeXAtom-ORD">
-        <mi mathvariant="double-struck">R</mi>
-      </mrow>
-      <mn>2</mn>
-    </msup>
-    <mtext>&#xA0;</mtext>
-    <mrow class="MJX-TeXAtom-ORD">
-      <mo stretchy="false">|</mo>
-    </mrow>
-    <mtext>&#xA0;</mtext>
-    <msup>
-      <mi>y</mi>
-      <mn>2</mn>
-    </msup>
-    <mo>=</mo>
-    <msup>
-      <mi>x</mi>
-      <mn>3</mn>
-    </msup>
-    <mo>+</mo>
-    <mi>a</mi>
-    <mi>x</mi>
-    <mo>+</mo>
-    <mi>b</mi>
-    <mo>,</mo>
-    <mtext>&#xA0;</mtext>
-    <mn>4</mn>
-    <msup>
-      <mi>a</mi>
-      <mn>3</mn>
-    </msup>
-    <mo>+</mo>
-    <mn>27</mn>
-    <msup>
-      <mi>b</mi>
-      <mn>2</mn>
-    </msup>
-    <mo>&#x2260;</mo>
-    <mn>0</mn>
-    <mo>}</mo>
-  </mrow>
-  <mtext>&#xA0;</mtext>
-  <mo>&#x222A;</mo>
-  <mtext>&#xA0;</mtext>
-  <mrow>
-    <mo>{</mo>
-    <mn>0</mn>
-    <mo>}</mo>
-  </mrow>
-</math>
-
-
+$$
+\left\{( x,y) \ \in \mathbb{R}^{2} \ |\ y^{2} =x^{3} +ax+b,\ 4a^{3} +27b^{2} \neq 0\right\} \ \cup \ \{0\}
+$$
+    
 ## Algebraic addition
 
 Algebraic formulae are constructed to efficiently compute the geometric arithmetic.
@@ -95,48 +52,60 @@ Algebraic formulae are constructed to efficiently compute the geometric arithmet
 
 ![]({{ site.baseurl }}/assets/images/bitcoin/elliptic_curve_point_addition.png)
 
+$$
+ \begin{array}{l}
+When\ P=(_{Xp} ,_{Yp}) \ and\ Q\ =(_{Xq} ,_{Yq\ }) \ are\ not\ negative\ of\ each\ other,\ P\ +\ Q\ =\ R\ \ \\
+where\ m\ =\ \ \frac{(_{Yp} -_{Yq\ })}{(_{Xp} -_{Xq\ })} \ \ \\
+_{Xr} \ =m^{2} \ −\ _{Xp} \ -\ _{Xq} \ \\
+_{Yr} \ =\ -_{Yp} \ +\ m(_{Xp} \ -\ _{Xr})
+\end{array}
+$$
 
-When P = (Xp,Yp) and Q = (Xq,Yq) are not negative of each other,
-
-P + Q = R where
-
-m = (Yp - Yq) / (Xp - Xq)
-
-Xr = m^2 - Xp - Xq
-
-Yr = -Yp + m(Xp - Xr)
-
-***Note that m is the slope of the line through P and Q.***
+**Note that m is the slope of the line through P and Q.**
 
 ## Doubling the point P
 
 ![]({{ site.baseurl }}/assets/images/bitcoin/elliptic_curve_scalar_multiplication.png)
 
-What would happen if point P and Q share the same position (x and y wise)?
+When P and Q share the same position (X and Y wise), addind two points (P and Q ) that share the same location **is called “Doubling the point P” also referred as adding a point to itself.**
 
-How do you add two points (P and Q ) that share the same location?
+$$
+ \begin{array}{l}
+When\ Yp\ \neq 0,\ 2P\ =\ R\ \\
+where\ m\ =\ \frac{\left( 3Xp^{2} \ +\ a\right)}{( 2Yp\ )} \ \\
+_{Xr} \ =m^{2} \ −\ _{2Xp}\\
+_{Yr} \ =\ -_{Yp} \ +\ m(_{Xp} \ -\ _{Xr})
+\end{array}
+$$
 
-**Well this is called “Doubling the point P” also referred as adding a point to itself.**
+**Recall that a is one of the parameters chosen with the elliptic curve and that m is the tangent on the point P.**
 
-When Yp is not 0,
+## Elliptic curve point multiplication
 
-2P = R where
+Elliptic curve point multiplication is the operation of successively adding a point along an elliptic curve to itself repeatedly. It is used in elliptic curve cryptography (ECC) 
+as a means of producing a one-way function. The literature presents this operation as scalar multiplication, thus the most common name is elliptic curve scalar multiplication, as 
+written in Hessian form of an elliptic curve. [wikipedia](https://en.wikipedia.org/wiki/Elliptic_curve_point_multiplication)
 
-m = (3Xp^2 + a) / (2Yp )
+Point addition and point doubling allow us to define scalar multiplication for elliptic curves such that, xP = R where x is a scalar, P is a point tangent to the curve and R is the 
+resulting point from adding P on to itself x times. 
 
-Xr = m^2 - 2Xp
+The straightforward way of computing a point multiplication is through repeated addition. However, this is a fully exponential approach to computing the multiplication.
 
-Yr = -Yp + m(Xp - Xr)
+There are several algorithms used to calculate the scalar multiplication: 
 
-***Recall that a is one of the parameters chosen with the elliptic curve and that m is the tangent on the point P.***
+- [Elliptic curve point multiplication](https://en.wikipedia.org/wiki/Elliptic_curve_point_multiplication)
+
+- [Fast point multiplication algorithms for binary elliptic curveswith and without precomputation](https://eprint.iacr.org/2014/427.pdf)
+
 
 # Elliptic Curve Digital Signature Algorithm **(ECDSA)**
 
-***Bitcoin*** uses the Elliptic Curve Digital Signature Algorithm **(ECDSA)** based on elliptic curve cryptography. The particular elliptic
+**Bitcoin** uses the Elliptic Curve Digital Signature Algorithm **(ECDSA)** based on elliptic curve cryptography. The particular elliptic
 curve is known as [secp256k1](https://en.bitcoin.it/wiki/Secp256k1), which is the curve **Elliptic curve cryptography (ECC)**.
 
-<math display="block"><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mrow><mn>3</mn><mo>+</mo><mn>7</mn></mrow></msup></math>
-
+$$
+\displaystyle y^{2} \ =\ x^{3}+7
+$$
 
 The elliptic curve domain parameters over Fp associated with a Koblitz curve secp256k1 are specified by the sextuple
 
@@ -145,7 +114,7 @@ T = (p,a,b,G,n,h) where the finite field Fp is defined by:
     p = FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFE FFFFFC2F
     = 2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 24 - 1
 
-The curve E: y^2 = x^3+ax+b over Fp is defined by:
+$$\displaystyle The\ curve\ E:\ y^{2} \ =\ x^{3} +ax+b\ over\ Fp\ is\ defined\ by:$$
 
     a = 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
     b = 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000007
@@ -165,16 +134,7 @@ Finally the order n of G and the cofactor are:
 
 **secp256k1** has characteristic p, it is defined over the prime field ℤp. Some other curves in common use have characteristic 2, and are defined over a binary Galois field GF(2n), but secp256k1 is not one of them.
 
-As the a constant is zero, the ax term in the curve equation is always zero, hence the curve equation becomes **y^2 = x^3 + 7**
-
-# Bitcoin Keys and Addresses
-
-You may have heard that bitcoin is based on cryptography, which is a branch of mathematics used extensively in computer security. Cryptography means
-"secret writing" in Greek, but the science of cryptography encompasses more than just secret writing, which is referred to as encryption.
-Cryptography can also be used to prove knowledge of a secret without revealing that secret (digital signature), or prove the authenticity of data
-(digital fingerprint). These types of cryptographic proofs are the mathematical tools critical to bitcoin and used extensively in bitcoin applications.
-Ironically, encryption is not an important part of bitcoin, as its communications and transaction data are not encrypted and do not need to be encrypted
-to protect the funds.   [mastering bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc#keys-addresses)
+As the a constant is zero, the ax term in the curve equation is always zero, hence the curve equation becomes $$\displaystyle y^{2} \ =\ x^{3}+7$$
 
 ## Private and Public Keys
 
@@ -193,11 +153,11 @@ the funds secured by it are forever lost, too. [mastering bitcoin](https://githu
 
 
 The first and most important step in generating keys is to find a secure source of entropy, or randomness. Creating a bitcoin key is essentially the same as
-"Pick a number between 1 and 2256." The exact method you use to pick that number does not matter as long as it is not predictable or repeatable.
+"Pick a number between 1 and $$2^{256}$$." The exact method you use to pick that number does not matter as long as it is not predictable or repeatable.
 Bitcoin software uses the underlying operating system’s random number generators to produce 256 bits of entropy (randomness). Usually, the OS random number
 generator is initialized by a human source of randomness, which is why you may be asked to wiggle your mouse around for a few seconds. [mastering bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc#generating-a-private-key-from-a-random-number)
 
-More precisely, the private key can be any number between 0 and n - 1 inclusive, where n is a constant (n = 1.1578 * 1077, slightly less than 2256) defined
+More precisely, the private key can be any number between 0 and n - 1 inclusive, where n is a constant (n = 1.1578 * 1077, slightly less than $$2^{256}$$) defined
 as the order of the elliptic curve used in bitcoin. [mastering bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc#generating-a-private-key-from-a-random-number)
 
 ### Private Key Wallet import format
