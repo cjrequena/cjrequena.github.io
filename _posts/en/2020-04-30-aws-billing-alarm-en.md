@@ -1,14 +1,16 @@
 ---
 layout: post
-title: "[AWS] How to create a billing alarm"
+title: "[AWS] How to create an billing alarm"
 author: "Carlos Requena"
 lang: en
 ref: aws-billing-alarm
 tags:
    -  "[AWS] Amazon Web Services" 
 ---
+<span style="color:red">**“To know that we know what we know, and to know that we do not know what we do not know, that is true knowledge.”**</span>
+<span style="color:black;font-weight: bold">--Nicolaus Copernicus</span>
 
-# How to create a AWS billing alarm
+# How to create an AWS billing alarm
 
 1.  Set the billing preference, check and enable the option to receive billing alerts.
 2.  Go to Cloud Watch console.
