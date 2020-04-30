@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AWS] How to create an billing alarm"
+title: "[AWS] How to create a billing alarm"
 author: "Carlos Requena"
 lang: en
 ref: aws-billing-alarm
