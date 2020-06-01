@@ -8,3 +8,7 @@ tags:
    -  "[AWS] Amazon Web Services" 
 ---
 
+# Creating VPC without using the wizard
+
+In this post, we are going to create VPC without using the wizard to get into VPC in detail and to know how it works 
+internally. [Creating a VPC with Public and Private Subnets for Your Compute Environments](https://docs.aws.amazon.com/batch/latest/userguide/create-public-private-vpc.html)
