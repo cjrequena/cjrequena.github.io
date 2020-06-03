@@ -8,15 +8,15 @@ tags:
    -  "Apache Kafka"
 ---
 
-<span style="color:red">**“To copy others is necessary, but to copy oneself is pathetic”**</span>
-<span style="color:red;font-weight: bold">--Pablo Picasso</span>
+<div style="text-align:center"><span style="color:red;font-weight: bold">"To copy others is necessary, but to copy oneself is pathetic" </span> <span style="color:black;font-weight: bold">--Nikola Tesla.</span></div>
+
 
 # Apache Kafka Architecture & Fundamentals Q&A
 
 **These are the answer and question from a tech talk led by [Confluent](https://www.confluent.io/) about Apache Kafka Architecture and Fundamentals.**
 <br><br>
 
-**How reliable is the data ingest to kafka from the producer(s)?**
+**How reliable is the data ingest to Kafka from the producer(s)?**
 
 Tee, data can be acknowledged in the broker and also in copies (replicas) on other brokers. You have your choice of no ack, ack from the receiving broker, or ack once that one and all of the broker copies have successfully received the message.
 
@@ -31,7 +31,7 @@ No, a Kafka cluster of brokers requires only Kafka, and for now, Zookeeper
 Kafka can store on both - in memory initially and persisted on disk at an adjustable time after.
 
 
-**Is the retention time same for all brokers in a cluster? OR Can we set different retention time for each broker?**
+**Is the retention time the same for all brokers in a cluster? Or Can we set a different retention time for each broker?**
 
 Retention time can be set per topic, not per broker.
 
@@ -58,12 +58,12 @@ removed in the future.
 Local disks for the broker can be of any type.
 
 
-**Can some other components be used in place of Zookeeper?**
+**Can some other components be used instead of Zookeeper?**
 
-No but Zookeeper is set to be deprecated at some point - pllease see KIP 500: https://www.confluent.io/blog/removing-zookeeper-dependency-in-kafka/
+No but Zookeeper is set to be deprecated at some point - please see KIP 500: https://www.confluent.io/blog/removing-zookeeper-dependency-in-kafka/
 
 
-**Can Kafka be used in on-prem setup? If so what is the minimum system requirements/how many servers are required to configure Kafka?**
+**Can Kafka be used in on-premise setup? If so what is the minimum system requirements/how many servers are required to configure Kafka?**
 
 Kafka can be run on as few as one server, but three would commonly be ideal for failover support.
 
@@ -97,7 +97,7 @@ using Kafka.
 Yes, Zookeeper needs to be stood up when installing Kafka currently - but as Joe said it will be going away per KIP 500. Please see: https://www.confluent.io/blog/removing-zookeeper-dependency-in-kafka/
 
 
-**Can we have authorization enabled for consumer connecting using rest proxy having SASL_SSL security with SCRAM mechanism.**
+**Can we have authorization enabled for consumer connecting using rest proxy having SASL_SSL security with SCRAM mechanism.?**
 
 This mechanism is for authentication - for authorization, you need to use ACLs (Access Control Lists) or the new RBAC (Role Based Access Control) which is a feature of the Confluent Platform, not open source Kafka.
 
@@ -143,6 +143,7 @@ could then re-read any number of messages.
 The main difference is independence between the producer of messages and consumers of messages. The broker is in the middle as an independent handler of either 1) producer write or 2) 
 consumer read requests in a given transaction.
 
+
 **What are the data formats that are supported by Kafka? Also where does the transformations happen for business rules?**
 
 Kafka supports many data formats - there are many serializers of data types to include string, long, int, etc. Also there are many Schema formats to include Avro, Protobuf, 
@@ -155,28 +156,31 @@ It is possible for a message to be lost when produced to Kafka - you should look
 message and not care if it is received by a Broker or not.
 
 
-**I understand the storage is always hold by Zookeeper. Is it true or can I set for instance Oracle as the persistence?**
+**I understand that the storage is always held by Zookeeper. Is it true or Can I set for instance Oracle as the persistence?**
 
 Message data in a Kafka cluster is only persisted on local Kafka Broker storage. It is not held by Zookeeper nor can you persist it to Oracle. You could, of course use Connect to 
 move data from Kafka storage to Oracle if you wish.
 
 
-**Any scenarios where we don't need Zookeeper or we should always use it? We have an environment implemented by consultants that does not use Zookeeper. There are also some articles on the Internet that talks about not using Zookeeper.**
+**Any scenarios where we don't need Zookeeper or we should always use it? We have an environment implemented by consultants that does not use Zookeeper. There are also some articles 
+on the Internet that talks about not using Zookeeper.**
 
 WIth the current release of Kafka, you must use Zookeeper. That requirement will be removed in a future release as Kafka clusters move to self management.
 
 
 **If a broker dies, is the producer data on broker lost, or is it replicated on other brokers as well so it is never lost?**
 
-When you create a topic, you define the amount of replication that topic requires. It is typical to have 3 replicas for a topic - which means that even if 2 brokers crash you can continue to produce to and consume from your topic without data loss.
+When you create a topic, you define the amount of replication that topic requires. It is typical to have 3 replicas for a topic - which means that even if 2 brokers crash you 
+can continue to produce to and consume from your topic without data loss.
 
 
 **Is retention time the only way to have data removed/dropped from the cluster or can it be set in a way that if a consumer has consumed the data then it can be dropped from the cluster?**
 
-Kafka doesn't keep track of whether data has been consumed or not - there can be multiple consumers doing different tasks with the same data, or one consumer may choose to re-consume an entire topic - so retention time controls how long data will be stored on Kafka - on a per topic basis.
+Kafka doesn't keep track of whether data has been consumed or not - there can be multiple consumers doing different tasks with the same data, or one consumer may choose to re-consume 
+an entire topic - so retention time controls how long data will be stored on Kafka - on a per topic basis.
 
 
-**Can add in kafka code to enrich new data with some topic? or need do outside in other process?**
+**Can I add in Kafka code to enrich new data with some topic? Or need do outside in another process?**
 
 Yes! This is perfect for a Streams application if more than just a minimal addition is being done.
 
@@ -215,7 +219,8 @@ a topic and it uses a partitioner to determine which partition to send data to.
 Great question that has a lot behind it. There are some White Papers and/or blog posts on the Confluent and Kafka websites that help address this. Much of what Joe is explaining is 
 the basis for that! Yes, it's possible to resize as an operation, but with some caveats.
 
-**If I need to post transactions extracted from 500 tables into kafka, 1.is that a good idea to create 500 topics for each table, to make sure the consumers reads it in the same insertion order**
+**If I need to post transactions extracted from 500 tables into kafka, 1.is that a good idea to create 500 topics for each table, to make sure the consumers reads it in the same 
+insertion order**
 
 Good point! Order is something that requires overhead to enforce in Kafka. So yes, you may end up needing to create individual topics to ensure order. But for what you reference, 
 please check out Kafka Connect which may be able help handle that better.
@@ -225,7 +230,8 @@ please check out Kafka Connect which may be able help handle that better.
 Each topic may be broken into a number of partitions - you define the number when you create a topic. Those partitions can reside on different brokers - and each broker will receive 
 data appropriate for its own partitions. Partitions can also be replicated - so each partition will have a leader broker and some number of follower brokers.
 
-**Is there any advantages of using just one single topic, collecting all those 500 table message? i am afraid this would mixup the insertion order when consumers read 500 tables data from one single topic.**
+**Are there any advantages of using just one single topic, collecting all those 500 table messages? I am afraid this would mix up the insertion order when consumers read 500 tables 
+data from one single topic.**
 
 Yes, to ensure order for sure you can use single topics each having single partitions. But there may be a way to design your application, depending on its needs, that could be more 
 efficient - please check out the white papers and blog entries on confluent.io!
@@ -236,7 +242,7 @@ Messages are not mutated once they arrive at a Kafka broker - that is an inheren
 it is compacted - but the content of the message will not change.
 
 
-**Can i change the sequences of the messages in the logs?**
+**Can I change the sequences of the messages in the logs?**
 
 Summer, no - and yes. No you can't change what's been written to a log as it's immutable. But you can further process what's been written into a log, where you read it - and maybe 
 even process it or add to it from say a DB - then write it to a different log. Pretty cool?! This is known as a Streams application.
@@ -252,15 +258,17 @@ The data needs to be serialized to Kafka on the way in (produce), and deserializ
 The offset number for a message in a partition is a 64 bit number, so you can have 2 to the 64th power number of messages in a partition. You can define your topic to have many 
 partitions. A stream can have as many messages as the underlying topic.
 
+
 **Can I run Kafka on raspberry pi with small memory foot print. What is it’s memory foot print. I assuming memory foot print is configurable .please confirm.**
 
 Yes! Kafka will run on Raspberry Pi. Sorry I don't have the memory requirements, you should be able to find them at https://kafka.apache.org/ and please also check out 
 http://confluent.io !
 
+
 **Is there a chance of messages being out of sync, means the timestamp is not in order?**
 
 As a producer you can define what the timestamp is - you could use the event time, when the event actually took place, or the time the message is produced by the producer or the 
-inget time, when the message is written by the Broker. So, yes, you could have messages in a topic that have timestamps that are out of order.
+ingest time, when the message is written by the Broker. So, yes, you could have messages in a topic that have timestamps that are out of order.
 
 
 **Is a log file equivalent to a segment? Partition has 1 to n log files**
@@ -275,7 +283,8 @@ Simply you can turn on idempotence in your Kafka client code. You can also use E
 
 **Can we use Kafka to process a large cuantiti of daily images, pdf documents as messages and storage?**
 
-Because the default message size is 1 MD in Kafka, it is not unusual to have image or pdf data directly in the messages. That said, you could chunk large messages - but then you are responsible for correctly reassembling them. Or, you can pass references in a message to images or pdf documents that are stored externally.
+Because the default message size is 1 MD in Kafka, it is not unusual to have image or pdf data directly in the messages. That said, you could chunk large messages - but then you are 
+responsible for correctly reassembling them. Or, you can pass references in a message to images or pdf documents that are stored externally.
 
 
 **How do you typically handle duplicate messages? Let's say we need to do some operation say write to a DB, but a consumer can receive the same message twice..And we aren't able to 
