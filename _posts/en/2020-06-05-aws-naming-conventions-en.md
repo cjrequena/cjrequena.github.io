@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AWS] AWS Naming Conventions Best Practices"
+title: "[AWS] Naming Conventions Best Practices"
 author: "Carlos Requena"
 lang: en
 ref: aws-naming-conventions
