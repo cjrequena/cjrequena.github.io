@@ -17,46 +17,52 @@ Naming (tagging) your AWS resources consistently have several advantages such as
 improving clarity in cases of potential ambiguity and enhancing aesthetic and professional appearance.
 
 
-# AWS VPCs Naming Conventions
+# Default Pattern Components
+
+## Region Code
+``(ue1|uw1|uw2|ew1|ec1|an1|an2|as1|as2|se1)`` <span style="color:silver;">For us-east-1, us-west-1, us-west-2, eu-west-1, eu-central-1, ap-northeast-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, sa-east-1.</span>
+
+## Availability Zone Code
+`````([1-2]{1})([a-c]{1})````` <span style="color:silver;">(2a|2b|2c) for us-west-2a, us-west-2b, us-west-2c</span>
+
+## Environment Code
+``(d|t|s|p)`` <span style="color:silver;">For development, test, staging, production.</span>
+
+## Application Code
+``([a-z0-9\-]+)`` <span style="color:silver;">For the application stack that runs within the VPC (e.g. bid-data-app-stack).</span>
+
+# VPC Naming Conventions
 
 ## Default Pattern Format
-<span style="color:silver;">
-vpc-RegionCode-EnvironmentCode-ApplicationStackCode
-</span>
+``vpc-RegionCode-EnvironmentCode-ApplicationStackCode``
 
-## Default Pattern Components
+## RegExp
+``^vpc-(ue1|uw1|uw2|ew1|ec1|an1|an2|as1|as2|se1)-(d|t|s|p)-([a-z0-9\-]+)$``
 
-### Region Code
-````(ue1|uw1|uw2|ew1|ec1|an1|an2|as1|as2|se1) ```` <span style="color:silver;">For us-east-1, us-west-1, us-west-2, eu-west-1, eu-central-1, ap-northeast-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, sa-east-1.</span>
- 
-
-### Environment Code
-```(d|t|s|p)``` <span style="color:silver;">For development, test, staging, production.</span> 
-
-### Application Code
-
-`````([a-z0-9\-]+)````` <span style="color:silver;">For the application stack that runs within the VPC (e.g. bid-data-app-stack).</span> 
-
-## Default Pattern Examples
-
+## Examples
 <span style="color:silver;">
 vpc-us-east-1-p-bid-data-app-stack
 <br>
 vpc-us-west-2-p-web-app-stack
 </span>
 
-## RegExp
-<span style="color:silver;">
-^vpc-(ue1|uw1|uw2|ew1|ec1|an1|an2|as1|as2|se1)-(d|t|s|p)-([a-z0-9\-]+)$
-</span>
-
 
 
 # EC2 Instance Naming Conventions
-## Default Pattern Format
-## Default Pattern Components
-## Default Pattern Examples
+
+# Default Pattern Format
+``ec2-RegionCode-AvailabilityZoneCode-EnvironmentCode-ApplicationCode``
+
 ## RegExp
+```^ec2-(ue1|uw1|uw2|ew1|ec1|an1|an2|as1|as2|se1)-([1-2]{1})([a-c]{1})-(d|t|s|p)-([a-z0-9\-]+)$```
+
+## Examples
+<span style="color:silver;">
+ec2-us-east-1-2a-p-tomcat
+<br>
+ec2-us-west-1-2b-p-nodejs 
+</span>
+
 
 <br>
 > 
