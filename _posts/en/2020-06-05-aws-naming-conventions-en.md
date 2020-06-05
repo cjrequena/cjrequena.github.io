@@ -8,6 +8,8 @@ tags:
    -  "[AWS] Amazon Web Services" 
 ---
 
+<div style="text-align:center"><span style="color:red;font-weight: bold">"Our true nationality is mankind." </span> <span style="color:black;font-weight: bold">--H. G. Wells</span></div>
+
 # AWS Naming Conventions Best Practices
 
 A naming convention is a well-defined set of rules useful for choosing the name of an AWS resource. Ensure that your AWS resources are using appropriate naming conventions for 
@@ -50,7 +52,7 @@ vpc-us-west-2-p-web-app-stack
 
 # EC2 Instance Naming Conventions
 
-# Default Pattern Format
+## Default Pattern Format
 ``ec2-RegionCode-AvailabilityZoneCode-EnvironmentCode-ApplicationCode``
 
 ## RegExp
