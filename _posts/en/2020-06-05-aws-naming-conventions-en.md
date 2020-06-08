@@ -33,6 +33,10 @@ improving clarity in cases of potential ambiguity and enhancing aesthetic and pr
 ## Application Code
 ``([a-z0-9\-]+)`` <span style="color:silver;">For the application stack that runs within the VPC (e.g. bid-data-app-stack).</span>
 
+## Subnet Route Code
+``(public|private)`` <span style="color:silver;">For public, private</span>
+
+
 # VPC Naming Conventions
 
 ## Default Pattern Format
@@ -48,7 +52,20 @@ vpc-us-east-1-p-bid-data-app-stack
 vpc-us-west-2-p-web-app-stack
 </span>
 
+# Subnet Naming Conventions
 
+## Default Pattern Format
+``snet-RegionCode-AvailabilityZoneCode-SubnetRouteCode-EnvironmentCode-ApplicationCode``
+
+## RegExp
+```^snet-(ue1|uw1|uw2|ew1|ec1|an1|an2|as1|as2|se1)-([1-2]{1})([a-c]{1})-(public|private)-(d|t|s|p)-([a-z0-9\-]+)$```
+
+## Examples
+<span style="color:silver;">
+snet-us-east-1-2a-public-p-tomcat
+<br>
+snet-us-west-1-2b-private-p-postgres
+</span>
 
 # EC2 Instance Naming Conventions
 
