@@ -47,7 +47,7 @@ improving clarity in cases of potential ambiguity and enhancing aesthetic and pr
 
 ## Examples
 <span style="color:silver;">
-vpc-us-east-1-p-bid-data-app-stack
+vpc-us-east-1-p-big-data-app-stack
 <br>
 vpc-us-west-2-p-web-app-stack
 </span>
@@ -55,16 +55,16 @@ vpc-us-west-2-p-web-app-stack
 # Subnet Naming Conventions
 
 ## Default Pattern Format
-``snet-RegionCode-AvailabilityZoneCode-SubnetRouteCode-EnvironmentCode-ApplicationCode``
+``snet-RegionCode-AvailabilityZoneCode-SubnetRouteCode-EnvironmentCode-ApplicationStackCode``
 
 ## RegExp
 ```^snet-(ue1|uw1|uw2|ew1|ec1|an1|an2|as1|as2|se1)-([1-2]{1})([a-c]{1})-(public|private)-(d|t|s|p)-([a-z0-9\-]+)$```
 
 ## Examples
 <span style="color:silver;">
-snet-us-east-1-2a-public-p-tomcat
+snet-us-east-1-2a-public-p-web-app-stack
 <br>
-snet-us-west-1-2b-private-p-postgres
+snet-us-west-1-2b-private-p-database-stack
 </span>
 
 # EC2 Instance Naming Conventions
