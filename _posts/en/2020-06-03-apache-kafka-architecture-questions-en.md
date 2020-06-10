@@ -8,7 +8,7 @@ tags:
    -  "Apache Kafka"
 ---
 
-<div style="text-align:center"><span style="color:red;font-weight: bold">"To copy others is necessary, but to copy oneself is pathetic" </span> <span style="color:black;font-weight: bold">--Nikola Tesla.</span></div>
+<div style="text-align:center"><span style="color:red;font-weight: bold">"To copy others is necessary, but to copy oneself is pathetic" </span> <span style="color:black;font-weight: bold">--Pablo Picasso.</span></div>
 
 
 # Apache Kafka Architecture & Fundamentals Q&A
