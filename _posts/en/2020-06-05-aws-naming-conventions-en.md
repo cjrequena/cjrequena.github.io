@@ -22,13 +22,13 @@ improving clarity in cases of potential ambiguity and enhancing aesthetic and pr
 # Default Pattern Components
 
 ## Region Code
-``(ue1|uw1|uw2|ew1|ec1|an1|an2|as1|as2|se1)`` <span style="color:silver;">For us-east-1, us-west-1, us-west-2, eu-west-1, eu-central-1, ap-northeast-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, sa-east-1.</span>
+``(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)`` <span style="color:silver;">For us-east-1, us-west-1, us-west-2, eu-west-1, eu-central-1, ap-northeast-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, sa-east-1.</span>
 
 ## Availability Zone Code
 `````([1-2]{1})([a-c]{1})````` <span style="color:silver;">(2a|2b|2c) for us-west-2a, us-west-2b, us-west-2c</span>
 
 ## Environment Code
-``(d|t|s|p)`` <span style="color:silver;">For development, test, staging, production.</span>
+``(dev|test|stg|prod)`` <span style="color:silver;">For development, test, staging, production.</span>
 
 ## Application Code
 ``([a-z0-9\-]+)`` <span style="color:silver;">For the application stack that runs within the VPC (e.g. bid-data-app-stack).</span>
@@ -43,13 +43,13 @@ improving clarity in cases of potential ambiguity and enhancing aesthetic and pr
 ``vpc-RegionCode-EnvironmentCode-ApplicationStackCode``
 
 ## RegExp
-``^vpc-(ue1|uw1|uw2|ew1|ec1|an1|an2|as1|as2|se1)-(d|t|s|p)-([a-z0-9\-]+)$``
+``^vpc-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-(dev|test|stg|prod)-([a-z0-9\-]+)$``
 
 ## Examples
 <span style="color:silver;">
-vpc-us-east-1-p-big-data-app-stack
+vpc-us-east-1-prod-big-data-app-stack
 <br>
-vpc-us-west-2-p-web-app-stack
+vpc-us-west-2-prod-web-app-stack
 </span>
 
 # Subnet Naming Conventions
@@ -58,13 +58,13 @@ vpc-us-west-2-p-web-app-stack
 ``snet-RegionCode-AvailabilityZoneCode-SubnetRouteCode-EnvironmentCode-ApplicationStackCode``
 
 ## RegExp
-```^snet-(ue1|uw1|uw2|ew1|ec1|an1|an2|as1|as2|se1)-([1-2]{1})([a-c]{1})-(public|private)-(d|t|s|p)-([a-z0-9\-]+)$```
+```^snet-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-([1-2]{1})([a-c]{1})-(public|private)-(dev|test|stg|prod)-([a-z0-9\-]+)$```
 
 ## Examples
 <span style="color:silver;">
-snet-us-east-1-2a-public-p-web-app-stack
+snet-us-east-1-2a-public-prod-web-app-stack
 <br>
-snet-us-west-1-2b-private-p-database-stack
+snet-us-west-1-2b-private-prod-database-stack
 </span>
 
 # EC2 Instance Naming Conventions
@@ -73,13 +73,29 @@ snet-us-west-1-2b-private-p-database-stack
 ``ec2-RegionCode-AvailabilityZoneCode-EnvironmentCode-ApplicationCode``
 
 ## RegExp
-```^ec2-(ue1|uw1|uw2|ew1|ec1|an1|an2|as1|as2|se1)-([1-2]{1})([a-c]{1})-(d|t|s|p)-([a-z0-9\-]+)$```
+```^ec2-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-([1-2]{1})([a-c]{1})-(dev|test|stg|prod)-([a-z0-9\-]+)$```
 
 ## Examples
 <span style="color:silver;">
-ec2-us-east-1-2a-p-tomcat
+ec2-us-east-1-2a-prod-tomcat
 <br>
-ec2-us-west-1-2b-p-nodejs 
+ec2-us-west-1-2b-prod-nodejs 
+</span>
+
+
+# PEM Key Naming Conventions
+
+## Default Pattern Format
+``RegionCode-EnvironmentCode-ApplicationCode``
+
+## RegExp
+```^key-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-(dev|test|stg|prod)-([a-z0-9\-]+)$```
+
+## Examples
+<span style="color:silver;">
+key-us-east-1-prod-web-server
+<br>
+key-us-west-1-prod-database 
 </span>
 
 
