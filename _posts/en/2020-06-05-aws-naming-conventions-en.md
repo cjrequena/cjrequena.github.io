@@ -55,16 +55,16 @@ vpc-us-west-2-prod-web-app-stack
 # Subnet Naming Conventions
 
 ## Default Pattern Format
-``snet-RegionCode-AvailabilityZoneCode-SubnetRouteCode-EnvironmentCode-ApplicationStackCode``
+``subnet-RegionCode-AvailabilityZoneCode-SubnetRouteCode-EnvironmentCode-ApplicationStackCode``
 
 ## RegExp
-```^snet-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-([1-2]{1})([a-c]{1})-(public|private)-(dev|test|stg|prod)-([a-z0-9\-]+)$```
+```^subnet-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-([1-2]{1})([a-c]{1})-(public|private)-(dev|test|stg|prod)-([a-z0-9\-]+)$```
 
 ## Examples
 <span style="color:silver;">
-snet-us-east-1-2a-public-prod-web-app-stack
+subnet-us-east-1-2a-public-prod-web-app-stack
 <br>
-snet-us-west-1-2b-private-prod-database-stack
+subnet-us-west-1-2b-private-prod-database-stack
 </span>
 
 # EC2 Instance Naming Conventions
