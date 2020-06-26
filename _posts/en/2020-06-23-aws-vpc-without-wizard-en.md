@@ -141,12 +141,12 @@ associations, select **subnet-us-east-1b-private-test-lab** and save.
 28. Create two Security Groups one for the public subnet and another for the private subnet.
     
     **\[SG-1\]**   
-    **Security group name:** sg-acl-subnet-us-east-1a-public-test-lab   
+    **Security group name:** sg-subnet-us-east-1a-public-test-lab   
     **Description:** Any description    
     **VPC:**  vpc-us-east-1-test-lab
     
     **\[SG-2\]**   
-    **Security group name:** sg-acl-subnet-us-east-1b-private-test-lab   
+    **Security group name:** sg-subnet-us-east-1b-private-test-lab   
     **Description:** Any description    
     **VPC:**  vpc-us-east-1-test-lab
     
