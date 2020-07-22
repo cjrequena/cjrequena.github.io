@@ -152,6 +152,8 @@ associations, select **subnet-us-east-1b-private-test-lab** and save.
     
 <br>
 > 
-<span style="color:silver;">References</span>
+<span style="color:silver;">References and Resources</span>
+- [Amazon Virtual Private Cloud Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
+- [Amazon Virtual Private Cloud VPC](https://cjrequena.com/2019-02-07/aws-vpc-en)
 - [CIDR](https://cidr.xyz/)
 
