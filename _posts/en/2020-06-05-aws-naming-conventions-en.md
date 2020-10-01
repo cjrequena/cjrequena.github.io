@@ -18,7 +18,7 @@ tagging in order to manage them more efficiently and adhere to AWS resource tagg
 Naming (tagging) your AWS resources consistently have several advantages such as providing additional information about the resource location and usage, promoting consistency within the selected AWS region, distinguishing fast similar resources stacks from one another, avoiding naming collisions,
 improving clarity in cases of potential ambiguity and enhancing aesthetic and professional appearance.
 
-
+-----------
 # Default Pattern Components
 
 ## Region Code
@@ -36,7 +36,7 @@ improving clarity in cases of potential ambiguity and enhancing aesthetic and pr
 ## Subnet Route Code
 ``(public|private)`` <span style="color:silver;">For public, private</span>
 
-
+-----------
 # VPC Naming Conventions
 
 ## Default Pattern Format
@@ -52,6 +52,7 @@ vpc-us-east-1-prod-big-data-app-stack
 vpc-us-west-2-prod-web-app-stack
 </span>
 
+-----------
 # Subnet Naming Conventions
 
 ## Default Pattern Format
@@ -67,6 +68,7 @@ subnet-us-east-1-2a-public-prod-web-app-stack
 subnet-us-west-1-2b-private-prod-database-stack
 </span>
 
+-----------
 # EC2 Instance Naming Conventions
 
 ## Default Pattern Format
@@ -82,7 +84,7 @@ ec2-us-east-1-2a-prod-tomcat
 ec2-us-west-1-2b-prod-nodejs 
 </span>
 
-
+-----------
 # PEM Key Naming Conventions
 
 ## Default Pattern Format
