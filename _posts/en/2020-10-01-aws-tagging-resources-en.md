@@ -34,7 +34,7 @@ not intended to be used for private or sensitive data.
 
 -  Remember that it is easy to change tags to accommodate changing business requirements, but consider the consequences of future changes. For example, changing access control tags means you must also update the policies that reference those tags and control access to your resources.
 
-# Best Practices for Naming Tags and Resources
+# Best Practices for Naming Tags
 
 ## Adopt a Standardized Approach for Tag Names 
 
