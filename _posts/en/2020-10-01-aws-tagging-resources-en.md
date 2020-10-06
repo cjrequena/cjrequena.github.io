@@ -8,7 +8,7 @@ tags:
    -  "[AWS] Amazon Web Services"
 ---
 
-<div style="text-align:center"><span style="color:red;font-weight: bold">A witty saying proves nothing." </span> <span style="color:black;font-weight: bold">--Voltaire</span></div>
+<div style="text-align:center"><span style="color:red;font-weight: bold">"A witty saying proves nothing." </span> <span style="color:black;font-weight: bold">--Voltaire</span></div>
 <br>
 
 # [AWS] Tagging Resources
