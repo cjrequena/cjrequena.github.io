@@ -69,9 +69,45 @@ The prefix ensures that tags are clearly identified as having been defined by yo
 
 # Tagging categories
 ## Technical Tags
+-   **name** – Identify individual resources 
+
+-   **application-id** – Identify resources that are related to a specific application 
+
+-   **application-role** – Describe the function of a particular resource (such as web server, message broker, database)
+
+-   **cluster** – Identify resource farms that share a common configuration and perform a specific function for an application
+
+-   **environment** – Distinguish between development, test, and production resources
+
+-   **version** – Help distinguish between versions of resources or applications
+
 ## Tags for Automation
+
+-   **date/time** – Identify the date or time a resource should be started, stopped, deleted, or rotated
+
+-   **opt-in/opt-out** – Indicate whether a resource should be included in an automated activity such as starting, stopping, or resizing instances
+
+-   **security** – Determine requirements, such as encryption or enabling of Amazon VPC flow logs; identify route tables or security groups that need extra scrutiny
+
+
 ## Business Tags
+
+-   **project** – Identify projects that the resource supports
+
+-   **owner** – Identify who is responsible for the resource
+
+-   **cost-center/business-unit** – Identify the cost center or business unit associated with a resource, typically for cost allocation and tracking
+
+-   **customer** – Identify a specific client that a particular group of resources serves
+
+
 ## Security Tags
+
+-   **confidentiality** – An identifier for the specific data confidentiality level a resource supports
+
+-   **compliance** – An identifier for workloads that must adhere to specific compliance requirements
+
+
 
 # Tagging Use Cases
 ## Tags for AWS Console Organization and Resource Groups    
