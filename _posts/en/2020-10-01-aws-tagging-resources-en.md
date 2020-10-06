@@ -34,9 +34,9 @@ not intended to be used for private or sensitive data.
 
 -  Remember that it is easy to change tags to accommodate changing business requirements, but consider the consequences of future changes. For example, changing access control tags means you must also update the policies that reference those tags and control access to your resources.
 
-## Best Practices for Naming Tags and Resources
+# Best Practices for Naming Tags and Resources
 
-### Adopt a Standardized Approach for Tag Names 
+## Adopt a Standardized Approach for Tag Names 
 
 Keep in mind that names for AWS tags are case sensitive so ensure that they are used consistently. For example, the tags CostCenter and costcenter are different, so one might be configured as a cost allocation tag for financial analysis and reporting and the other one might not be. Similarly, the **Name** tag appears in the AWS Console for many resources, but the name tag does not. 
 
@@ -66,7 +66,7 @@ Consider naming your tags using all lowercase, with hyphens separating words, an
 
 The prefix ensures that tags are clearly identified as having been defined by your organization and not by AWS or athird-party tool that you may be using. Using all lowercase with hyphens for separators avoids confusion about how to capitalize a tag name. For example, anycompany:project-idis simpler to rememberthan ANYCOMPANY:ProjectID, anycompany:projectID, or Anycompany:ProjectId
 
-### Standardize Names for AWS Resources
+## Standardize Names for AWS Resources
 [[AWS] Naming Conventions Best Practices](https://cjrequena.com/2020-06-05/aws-naming-conventions-en)
 
 # Tagging categories
