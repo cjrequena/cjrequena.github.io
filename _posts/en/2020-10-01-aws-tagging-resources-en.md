@@ -12,10 +12,12 @@ tags:
 <br>
 
 # [AWS] Tagging Resources
-Amazon Web Services allows customers to assign metadata to their AWS resources in the form of tags. Each tag is a simple label consisting of a customer-defined key and an optional value that can make it easier to manage, search for, and filter resources by purpose, owner, environment, or other criteria. AWS tags can be usedfor many purposes.
+Amazon Web Services allows customers to assign metadata to their AWS resources in the form of tags. Each tag is a simple label consisting of a customer-defined key and an optional 
+value that can make it easier to manage, search for, and filter resources by purpose, owner, environment, or other criteria. AWS tags can be used for many purposes.
 
 > <div style="text-align:left"><span style="color:red;font-weight: bold">Important</span></div>
-Do not add personally identifiable information (PII) or other confidential or sensitive information in tags. Tags are accessible to many AWS services, including billing. Tags are not intended to be used for private or sensitive data. 
+Do not add personally identifiable information (PII) or other confidential or sensitive information in tags. Tags are accessible to many AWS services, including billing. Tags are 
+not intended to be used for private or sensitive data. 
 
 # Best practices
 **As you create a tagging strategy for AWS resources, follow best practices:**
