@@ -5,7 +5,7 @@ author: "Carlos Requena"
 lang: en
 ref: aws-tagging-resources
 tags:
-   -  "[AWS] Tagging Resources" 
+   -  "[AWS] Amazon Web Services"
 ---
 
 <div style="text-align:center"><span style="color:red;font-weight: bold">A witty saying proves nothing." </span> <span style="color:black;font-weight: bold">--Voltaire</span></div>
