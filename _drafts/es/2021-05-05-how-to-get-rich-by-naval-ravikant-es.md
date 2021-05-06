@@ -2,10 +2,10 @@
 layout: post
 title: "Como Hacerse Rico Por @Naval Ravikant"
 author: "Carlos José Requena Jiménez"
-lang: en
+lang: es
 ref: como-hacerse-rico-by-naval-ravikant
 tags:
--  "REST API"
+-  "Economics"
 ---
 
 ## Summary
