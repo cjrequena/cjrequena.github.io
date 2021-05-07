@@ -297,7 +297,7 @@ E, incluso entonces, ha sido en una lucha lenta y constante. No he ganado dinero
 Siempre ha sido un montón de pequeñas cosas que se acumulan. Se trata más bien de crear riqueza de forma constante 
 mediante la creación de negocios, incluyendo oportunidades y creando inversiones. No ha sido una cosa gigante de una sola vez.
 
-## La riqueza se acumula de una en una, no de una en una
+## La riqueza se acumula de una en una, no toda a la vez.
 
 Mi riqueza personal no se ha generado en un gran año. Se acumula poco a poco, fichas a la vez. Más opciones, más negocios, 
 más inversiones, más cosas que puedo hacer.
@@ -628,3 +628,221 @@ leí, verdadero o falso, no lo sé, pero leí que va a hacer unos 100 millones d
 Incluso PewDiePie... hay un tuit divertidísimo que retuiteé el otro día. PewDiePie es el nombre de confianza número uno 
 en las noticias. Es un chico, creo que en Suecia, y tiene tres veces la distribución de las principales cadenas de noticias 
 por cable. Sólo en su canal de noticias. Ni siquiera está en su canal de entretenimiento.
+
+## Escape de la competencia a través de la autenticidad
+
+Internet permite que cualquier nicho de interés, siempre y cuando seas el mejor en él, se expanda. Y la gran noticia 
+es que, como cada ser humano es diferente, todos son los mejores en algo. Ser ellos mismos.
+
+Otro tuit que tuve y que vale la pena entrelazar, pero que no entró en esta tormenta de tuits, fue uno muy simple. 
+Me gustan las cosas cuando puedo comprimirlas porque son fáciles de recordar y de enganchar. Pero esa era, "Escapar de 
+la competencia a través de la autenticidad".
+
+Básicamente, cuando compites con la gente es porque les estás copiando. Es porque estás tratando de hacer lo mismo. Pero 
+cada ser humano es diferente. No copies.
+
+Sé que somos criaturas miméticas, y René Girard tiene toda una teoría de la mimesis. Pero es mucho más fácil que eso. 
+No imites. No copies. Sólo haz lo tuyo. Nadie puede competir contigo en ser tú. Es así de sencillo.
+
+Y así, cuanto más auténtico seas con lo que eres, y con lo que te gusta hacer, menos competencia vas a tener. Así que 
+puedes escapar de la competencia a través de la autenticidad cuando te das cuenta de que nadie puede competir contigo 
+en ser tú. Y normalmente eso habría sido un consejo inútil antes de Internet. Después de Internet puedes convertirlo en 
+una carrera.
+
+## Juegue a juegos de larga duración con gente de larga duración
+
+**Nivi:** Háblanos un poco de los sectores en los que deberías pensar en trabajar. ¿Qué tipo de trabajo deberías tener? 
+¿Y con quién querrías trabajar? Dijiste: "Hay que elegir una industria en la que se pueda jugar a largo plazo con gente 
+a largo plazo". ¿Por qué?
+
+**Naval:** Sí, esto es una visión de lo que hace que Silicon Valley funcione, y lo que hace que las sociedades de alta 
+confianza funcionen. Esencialmente, todos los beneficios de la vida provienen de los intereses compuestos. Ya sea en las 
+relaciones, o en ganar dinero, o en el aprendizaje.
+
+Así, el interés compuesto es una fuerza maravillosa, donde si empiezas con 1x lo que tienes, y luego si aumentas un 20% 
+al año durante 30 años, no es que tengas 30 años por 20% añadido. Se trata de la capitalización, por lo que sólo creció, 
+y creció, y creció hasta que de repente tienes una cantidad masiva de lo que sea. Ya sea buena voluntad, o amor, o 
+relaciones, o dinero. Así que creo que el interés compuesto es una fuerza muy importante.
+
+Tienes que ser capaz de jugar un juego a largo plazo. Y los juegos a largo plazo son buenos no sólo para el interés 
+compuesto, también son buenos para la confianza. Si nos fijamos en los juegos del tipo dilema del prisionero, una solución 
+al dilema del prisionero es el ojo por ojo, es decir, voy a hacerte lo que me hiciste la última vez, con algo de perdón 
+en caso de que se haya cometido un error. Pero eso sólo funciona en un dilema del prisionero iterado, es decir, si jugamos 
+una partida varias veces.
+
+Así que, si estás en una situación, como por ejemplo estás en Silicon Valley, donde la gente está haciendo negocios entre 
+sí, y se conocen entre sí, confían entre sí. Entonces hacen lo correcto entre ellos porque saben que esta persona estará 
+cerca para el siguiente juego.
+
+Ahora, por supuesto, eso no siempre funciona porque se puede hacer tanto dinero en un movimiento en Silicon Valley, a 
+veces la gente se traiciona entre sí porque son como, "Voy a conseguir la suficiente riqueza de esto que no me importa". 
+Por lo tanto, puede haber excepciones a todas estas circunstancias.
+
+Pero esencialmente, si quieres tener éxito, tienes que trabajar con otras personas. Y tienes que averiguar en quién 
+puedes confiar, y en quién puedes confiar durante un largo, largo período de tiempo, de forma que puedas seguir jugando 
+el juego con ellos, de modo que el interés compuesto, y la alta confianza hará más fácil jugar el juego, y te permitirá 
+recoger las principales recompensas, que suelen estar al final del ciclo.
+
+Así, por ejemplo, Warren Buffett lo ha hecho muy bien como inversor en el mercado de valores de EE.UU., pero la mayor 
+razón por la que pudo hacerlo fue porque el mercado de valores de EE.UU. ha sido estable, y alrededor, y no fue, 
+por ejemplo, confiscado por el gobierno durante una mala administración. O los EE.UU. no se sumergió en una guerra. 
+La plataforma subyacente no se destruyó. Así que, en su caso, estaba jugando un juego a largo plazo. Y la confianza 
+provenía de la estabilidad del mercado de valores estadounidense.
+
+## Cuando cambias de sector, empiezas de cero
+
+En Silicon Valley, la confianza proviene de la red de personas en la pequeña área geográfica, que con el tiempo descubres 
+con quién puedes trabajar y con quién no.
+
+Si sigues cambiando de ubicación, sigues cambiando de grupo... digamos que empezaste en la industria de la madera, y 
+construiste una red allí. Y estás trabajando duro, estás tratando de construir un producto en la industria de la madera. 
+Y de repente aparece otra industria que es adyacente pero diferente, pero no conoces a nadie en ella, y quieres sumergirte 
+en ella, y hacer dinero allí.
+
+Si sigues saltando de industria a... "No, en realidad necesito abrir una línea de estaciones de servicio para coches 
+eléctricos". Eso podría tener sentido. Esa podría ser la mejor oportunidad. Pero cada vez que te reajustes, cada vez 
+que salgas de donde construiste tu red, vas a empezar de cero. No vas a saber en quién confiar. Ellos no van a saber 
+confiar en ti.
+
+También hay industrias en las que la gente es transitoria por definición. Siempre están entrando y saliendo. La política 
+es un ejemplo de ello, ¿no? En la política se elige gente nueva. En la política se ve cuando hay muchos veteranos, 
+como en el Senado, gente que lleva mucho tiempo, y han sido políticos de carrera.
+
+Los políticos de carrera tienen muchas desventajas, como la corrupción. Pero una de las ventajas es que consiguen hacer 
+tratos entre ellos porque saben que la otra persona va a estar en el mismo puesto dentro de diez años, y van a tener que 
+seguir tratando con ellos, así que más vale que aprendan a cooperar.
+
+Mientras que cada vez que hay una nueva clase de novatos en la Cámara de Representantes, que se renueva cada dos años con 
+una gran ola electoral. No se hace nada porque hay muchas peleas. "Como acabo de llegar, no te conozco, no sé si vas a 
+estar por aquí, ¿por qué debería trabajar contigo en lugar de intentar hacer lo que creo que es correcto?"
+
+Así que es importante elegir una industria en la que puedas jugar a largo plazo, y con gente a largo plazo. Por lo tanto, 
+esas personas tienen que indicar que van a estar por aquí durante mucho tiempo. Que son éticos. Y su ética es visible a 
+través de sus acciones.
+
+## Los jugadores a largo plazo se enriquecen mutuamente
+
+**Nivi:** En un juego a largo plazo, parece que todos se enriquecen mutuamente. Y en un juego a corto plazo, parece que 
+todo el mundo se enriquece a sí mismo.
+
+**Naval:** Me parece una formulación brillante. En un juego a largo plazo, es una suma positiva. Todos estamos cocinando 
+el pastel juntos. Intentamos hacerla lo más grande posible. Y en un juego a corto plazo, estamos cortando el pastel.
+
+Ahora bien, esto no es para excusar a los socialistas, ¿verdad? Los socialistas son las personas que no participan en la 
+cocción del pastel, que aparecen al final, y dicen: "Quiero una porción, o quiero todo el pastel". Aparecen con las armas.
+
+Pero creo que un buen líder no se atribuye el mérito. Un buen líder básicamente trata de inspirar a la gente, para que el 
+equipo haga el trabajo. Y luego las cosas se dividen de acuerdo con la equidad, y quién contribuyó con cuánto, o lo más 
+cerca posible, y asumió un riesgo, en lugar de sólo quien tiene el cuchillo más largo... el cuchillo más afilado al final.
+
+Los rendimientos provienen del interés compuesto en los juegos iterados
+
+**Nivi:** Así que, estos dos siguientes tweets son, "Juega a juegos iterados. Todos los rendimientos en la vida, ya sea 
+en la riqueza, las relaciones o el conocimiento provienen del interés compuesto".
+
+**Naval:** Cuando has estado haciendo negocios con alguien, has sido amigo de alguien durante diez años, veinte años, 
+treinta años, simplemente se vuelve mejor y mejor porque confías en ellos tan fácilmente. La fricción disminuye, puedes 
+hacer cosas más y más grandes juntos.
+
+Por ejemplo, la más sencilla es casarse con alguien y tener hijos y criarlos. Eso es interés compuesto, ¿no? Invertir en 
+esas relaciones. Esas relaciones acaban siendo muy valiosas en comparación con otras relaciones más casuales.
+
+Lo mismo ocurre con la salud y la forma física. Ya sabes, cuanto más en forma estás, más fácil es mantenerse en forma. 
+Mientras que cuanto más se deteriora el cuerpo, más difícil es volver y arañar para recuperar la línea de base. Se 
+requieren actos heroicos.
+
+**Nivi:** Con respecto al interés compuesto, creo que vi retweet algo hace un tiempo. Tal vez fue de Ed Latimore. Decía 
+algo así como: "Consigue tracción. Consigue compra, y no la pierdas" [corrección: el tuit es de @mmay3r]. Así que la 
+idea era ganar algo de tracción inicial, y nunca retroceder, sólo seguir subiendo, y subiendo.
+
+**Naval:** No lo recuerdo exactamente. Pero creo que era así. Sí, era como, "Consigue tracción, y no lo dejes ir". Fue 
+una buena, sí.
+
+## Elegir socios comerciales con gran inteligencia, energía e integridad
+
+**Naval:** A la hora de elegir a las personas con las que trabajar, hay que elegir a las que tienen una gran inteligencia, 
+una gran energía y una gran integridad.
+
+Necesitas a alguien que sea inteligente, o irá en la dirección equivocada. Y no vas a terminar en el lugar correcto. 
+Necesitas a alguien con mucha energía porque el mundo está lleno de gente inteligente y perezosa.
+
+Todos conocemos a personas en nuestra vida que son muy inteligentes, pero no pueden levantarse de la cama, ni levantar 
+un dedo. Y también conocemos a personas que tienen mucha energía, pero no son tan inteligentes. Trabajan mucho, pero van 
+en la dirección equivocada.
+
+Y inteligente no es un peyorativo. No se trata de decir que alguien es inteligente y otro es estúpido. Pero es más bien 
+que todo el mundo es inteligente en cosas diferentes. Así que, dependiendo de lo que quieras hacer bien, tienes que 
+encontrar a alguien que sea inteligente en esa cosa.
+
+Y luego la energía, muchas veces la gente está desmotivada para una cosa específica, pero está motivada para otras cosas. 
+Así, por ejemplo, alguien puede estar realmente desmotivado para ir a un trabajo, y sentarse en una oficina. Pero puede 
+estar muy motivado para ir a pintar, ¿verdad?
+
+Bueno, en ese caso debería ser un pintor. Deberían poner arte en Internet. Tratar de averiguar cómo construir una carrera 
+a partir de eso, en lugar de llevar un collar alrededor de su cuello, e ir a un trabajo aburrido.
+
+Y la integridad es lo más importante, porque de lo contrario, si tienes los otros dos, lo que tienes es un ladrón 
+inteligente y trabajador que al final te va a engañar. Así que tienes que averiguar si la persona es de alta integridad.
+
+Y como hemos hablado, la forma de hacerlo es a través de señales. Y las señales son lo que hacen, no lo que dicen. Son 
+todas las cosas no verbales que hacen cuando creen que nadie está mirando.
+
+## La motivación tiene que venir intrínsecamente
+
+**Nivi:** Con respecto a la energía, hubo una cosa interesante de Sam Altman hace un tiempo, donde él estaba hablando de 
+la delegación, y él estaba diciendo: "Una de las cosas importantes para la delegación es, delegar a las personas que son 
+realmente buenos en la cosa que usted quiere que hagan".
+
+Es lo más obvio, pero parece que... quieres asociarte con personas que naturalmente van a hacer las cosas que quieres que 
+hagan.
+
+**Naval:** Sí. Yo casi no voy a crear una empresa, o contratar a una persona, o trabajar con alguien si no creo que esté 
+en lo que quiero que haga.
+
+Cuando era más joven, solía intentar convencer a la gente. Tenía la idea de que se podía vender a alguien para que hiciera 
+algo. Pero no se puede. No puedes mantenerlos motivados. Puedes hacer que se inspiren inicialmente. Puede que funcione si 
+eres un rey como Enrique V, y tratas de conseguir que carguen contra la batalla, y entonces se darán cuenta.
+
+Pero si tratas de mantener a alguien motivado a largo plazo, esa motivación tiene que venir intrínsecamente. No puedes 
+crearla, ni puedes ser la muleta para ellos si no tienen esa motivación intrínseca. Así que hay que asegurarse de que 
+la gente tiene mucha energía y quiere hacer lo que tú quieres que haga y en lo que quieres trabajar con ellos. 
+
+## La integridad es lo que alguien hace, a pesar de lo que dice que hace
+
+Leer las señales es muy, muy importante. Las señales son lo que la gente hace a pesar de lo que dice. Así que es importante 
+prestar atención a las señales sutiles. Todos sabemos que, socialmente, si alguien trata mal a un camarero o a una camarera 
+en un restaurante, es sólo cuestión de tiempo que te trate mal a ti.
+
+Si alguien jode a un enemigo, y es vengativo con él, pues es sólo cuestión de tiempo que te redefina de amigo a enemigo, 
+y sientas su ira. Por lo tanto, la gente enfadada, indignada, vengativa y que piensa a corto plazo es esencialmente así 
+en muchas interacciones en la vida real.
+
+La gente es extrañamente consistente. Esa es una de las cosas que aprendes sobre ellas. Así que quieres encontrar gente a 
+largo plazo. Quieres encontrar gente que parezca irracionalmente ética.
+
+Por ejemplo, tuve un amigo en cuya empresa invertí, y la empresa fracasó, y él podría haber acabado con todos los inversores. 
+Pero siguió poniendo más y más dinero personal. A través de tres pivotes diferentes, puso dinero personal hasta que la empresa 
+finalmente tuvo éxito. Y en el proceso, nunca eliminó a los inversores.
+
+Y yo siempre le agradecí eso. Dije, "Wow, es increíble que hayas sido tan bueno con tus inversores. No los has eliminado". 
+Y él se ofendió por eso. Dijo: "No lo hice por ti. No lo hice por mis inversores. Lo hice por mí. Es mi propia autoestima. 
+Es lo que me importa. Así es como vivo mi vida". Ese es el tipo de persona con la que quieres trabajar.
+
+Otra cita que me gusta, tengo un tweet sobre esto. Creo que lo leí en otro lugar, así que no me atribuyo el mérito. Pero 
+lo he modificado un poco. Que es que "la autoestima es la reputación que tienes contigo mismo". Siempre lo sabrás.
+
+Así que, la gente buena, la gente moral, la gente ética, la gente fácil de trabajar, la gente confiable, tienden a tener 
+una autoestima muy alta porque tienen muy buena reputación con ellos mismos, y lo entienden.
+
+No es el ego. La autoestima y el ego son cosas diferentes. Porque el ego puede ser inmerecido, pero la autoestima, al 
+menos, sientes que has estado a la altura de tu propio código moral interno.
+
+Y por eso es muy difícil trabajar con gente que acaba siendo poco íntegra. Y es difícil averiguar quién es de alta 
+integridad y quién de baja integridad. Por lo general, cuanto más dice alguien que es moral, ético y de alta integridad, 
+menos probable es que sea así.
+
+Es muy parecido a la señalización de estatus. Si se apuesta abiertamente por el estatus, si se habla abiertamente de ser 
+de alto estatus, eso es un movimiento de bajo estatus. Si hablas abiertamente de lo honesto, fiable y digno de confianza 
+que eres, probablemente no seas tan honesto y digno de confianza. Esa es una característica de los estafadores.
+
+Así que, sí, escoge una industria en la que puedas jugar a largo plazo con gente a largo plazo.
