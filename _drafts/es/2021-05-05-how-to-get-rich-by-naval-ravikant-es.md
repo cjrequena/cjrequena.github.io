@@ -846,3 +846,29 @@ de alto estatus, eso es un movimiento de bajo estatus. Si hablas abiertamente de
 que eres, probablemente no seas tan honesto y digno de confianza. Esa es una característica de los estafadores.
 
 Así que, sí, escoge una industria en la que puedas jugar a largo plazo con gente a largo plazo.
+
+## No te asocies con pesimistas
+
+**Nivi:** Vamos a hacer este último tweet. Dijiste: "No te asocies con cínicos y pesimistas. Sus creencias se autocumplen".
+
+**Naval:** Sí. Esencialmente, para crear cosas, tienes que ser un optimista racional. Racional en el sentido de que tienes 
+que ver el mundo como realmente es. Y, sin embargo, tienes que ser optimista sobre tus propias capacidades, y tu capacidad 
+para hacer las cosas.
+
+Todos conocemos a personas que son sistemáticamente pesimistas, que lo rechazan todo. Todo el mundo tiene en su vida al 
+tipo crítico que ayuda, ¿verdad? Cree que está siendo útil, pero en realidad está siendo crítico, y es un depresivo de todo.
+
+Esa persona no sólo no hará nada grande en su vida, sino que impedirá que otras personas a su alrededor hagan algo grande. 
+Creen que su trabajo es hacer agujeros en las cosas. Y está bien hacer agujeros en las cosas, siempre y cuando se encuentre 
+una solución.
+
+También está la clásica frase militar: "O diriges, sigues o te quitas de en medio". Y esta gente quiere una cuarta opción, 
+en la que no quieren liderar, no quieren seguir, pero no quieren quitarse de en medio. Quieren decirte por qué la cosa no 
+va a funcionar.
+
+Y todas las personas realmente exitosas que conozco tienen un fuerte sesgo de acción. Simplemente hacen las cosas. La forma 
+más fácil de averiguar si algo es viable o no es haciéndolo. Por lo menos haz el primer paso, y el segundo, y el tercero, 
+y luego decide.
+
+Así que, si quieres tener éxito en la vida, creando riqueza, o teniendo buenas relaciones, o estando en forma, o incluso 
+siendo feliz, necesitas tener una predisposición a la acción para conseguir lo que quieres. 
