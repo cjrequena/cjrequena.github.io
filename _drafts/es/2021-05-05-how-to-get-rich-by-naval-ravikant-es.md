@@ -16,13 +16,20 @@ Esta es una traducción al español del post y el podcast [How to Get Rich](http
 
 ## La riqueza compra tu libertad
 
-Usted quiere la riqueza porque le compra la libertad: para no tener que llevar una corbata como un collar alrededor del cuello; para no tener que despertarse a las 7:00 a.m. para ir corriendo al trabajo y sentarse en el tráfico de la jornada laboral; para no tener que desperdiciar su vida moliendo horas productivas en un trabajo sin alma que no le llena.
+Usted quiere la riqueza porque le compra la libertad: para no tener que llevar una corbata como un collar alrededor del cuello; 
+para no tener que despertarte a las 7:00 a.m. para ir corriendo al trabajo y sentarse en el tráfico de la jornada laboral; 
+para no tener que desperdiciar tu vida moliendo horas productivas en un trabajo sin alma que no le llena.
 
-El propósito de la riqueza es la libertad; no es nada más que eso. No es comprar abrigos de piel, ni conducir Ferraris, ni navegar en yates, ni dar la vuelta al mundo en un Gulf Stream. Esas cosas se vuelven muy aburridas y estúpidas, muy rápido. Se trata de ser tu propio individuo soberano.
+El propósito de la riqueza es la libertad; no es nada más que eso. No es comprar abrigos de piel, ni conducir Ferraris, ni 
+navegar en yates, ni dar la vuelta al mundo. Esas cosas se vuelven muy aburridas y estúpidas, muy rápido. Se trata de ser un 
+individuo soberano.
 
-No vas a conseguirlo a menos que lo quieras de verdad. El mundo entero lo quiere, y el mundo entero se esfuerza por conseguirlo.
+Y no vas a conseguirlo a menos que lo quieras de verdad. El mundo entero lo quiere, y el mundo entero se esfuerza por 
+conseguirlo.
 
-Es competitivo hasta cierto punto. Es un juego de suma positiva, pero hay elementos competitivos en él, porque hay una cantidad finita de recursos ahora mismo en la sociedad. Para conseguir los recursos para hacer lo que quieres, tienes que destacar.
+Es competitivo hasta cierto punto. Es un juego de suma positiva, pero hay elementos competitivos en él, porque hay una 
+cantidad finita de recursos ahora mismo en la sociedad. Para conseguir los recursos para hacer lo que quieres, tienes que 
+destacar.
 
 ## El dinero es como transferimos riqueza
 
@@ -872,3 +879,401 @@ y luego decide.
 
 Así que, si quieres tener éxito en la vida, creando riqueza, o teniendo buenas relaciones, o estando en forma, o incluso 
 siendo feliz, necesitas tener una predisposición a la acción para conseguir lo que quieres. 
+
+## Asociarse con optimistas racionales
+
+Y hay que ser optimista. No de forma irracional. No hay nada peor que alguien que es temerario y persigue algo que no 
+vale la pena.
+
+Por eso digo optimista racional. Pero hay que ser racional. Conocer todas las trampas. Conocer las desventajas, pero 
+mantener la cabeza alta.
+
+Tienes una vida en este planeta. ¿Por qué no tratar de construir algo grande? Esta es la belleza de Elon Musk, y la 
+razón por la que creo que inspira a tanta gente, es sólo porque él toma realmente, realmente grandes tareas audaces. 
+Y él proporciona un ejemplo para que la gente piense en grande.
+
+Y se necesita mucho trabajo para construir incluso las cosas pequeñas. No creo que el dueño de la tienda de comestibles 
+de la esquina trabaje menos que Elon Musk, ni que derrame menos sudor y esfuerzo. Tal vez incluso más.
+
+Pero por la razón que sea, la educación o las circunstancias, no han tenido la oportunidad de pensar en grande, así que 
+el resultado no es tan grande. Así que es mejor pensar a lo grande. Obviamente, racionalmente, dentro de tus posibilidades, 
+mantente optimista.
+
+Los cínicos y los pesimistas, lo que realmente están diciendo, es desafortunado, pero básicamente están diciendo: 
+"Me he rendido. No creo que pueda hacer nada. Así que el mundo me parece un mundo en el que nadie puede hacer nada. 
+Así que por qué deberías ir a hacer algo porque si fracasas, entonces tengo razón, lo cual es genial. Pero si tienes 
+éxito, entonces sólo me haces quedar mal".
+
+## Descendemos de pesimistas
+
+**Nivi:** Sí, probablemente es mejor ser un optimista irracional, que ser un cínico racional.
+
+**Naval:** Hay un marco completamente racional para ser optimista. Históricamente, si te remontas a 2.000 años, 5.000 años, 
+10.000 años, dos personas están vagando por una selva, oyen un tigre. Uno es optimista y dice: "Oh, no se dirige hacia nosotros". La otra dice: "Soy pesimista, me voy de aquí". Y el pesimista corre y sobrevive, y el optimista es devorado.
+
+Así que, descendemos de pesimistas. Estamos genéticamente programados para ser pesimistas. Pero la sociedad moderna es mucho, 
+mucho más segura. No hay tigres vagando por la calle. Es muy poco probable que acabes en la ruina total, aunque deberías 
+evitar la ruina total.
+
+Es mucho más probable que las ventajas sean ilimitadas y los inconvenientes limitados. Por lo tanto, adaptarse a la sociedad 
+moderna significa anular tu pesimismo y hacer apuestas ligeramente optimistas e irracionales, porque el lado positivo es 
+ilimitado si creas el próximo SpaceX, o Tesla, o Uber, puedes ganar miles de millones de dólares de valor para la sociedad 
+y para ti mismo, y cambiar el mundo.
+
+Y si fracasas, ¿cuál es el problema? Has perdido unos cuantos millones de dólares del dinero de los inversores, y ellos 
+tienen muchos más, y esa es la apuesta que hacen sobre las posibilidades de que tengas éxito.
+
+Tenía sentido ser pesimista en el pasado. Hoy tiene sentido ser optimista, sobre todo si tienes estudios y vives en un 
+país del primer mundo. Incluso en un país del Tercer Mundo. De hecho, creo que las oportunidades económicas en los países 
+del Tercer Mundo son mucho mayores.
+
+Lo único que hay que evitar es el riesgo de ruina. La ruina significa no ir a la cárcel. Así que no hagas nada que sea ilegal. 
+Nunca vale la pena llevar un mono naranja. Y mantente alejado de la pérdida catastrófica total. Eso puede significar que te 
+mantengas alejado de cosas que puedan ser físicamente peligrosas, que dañen tu cuerpo.
+
+Tienes que vigilar tu salud. Y mantente alejado de cosas que puedan hacerte perder todo tu capital, todos tus ahorros. 
+Por lo tanto, no apuestes todo de una sola vez. Pero haz apuestas racionalmente optimistas con grandes ventajas.
+
+## BOCTAOE
+
+**Nivi:** Creo que hay gente que intentará construir tus ideas, y que se basará en tus ideas, sin importar lo descabelladas 
+que puedan parecer. Y luego hay gente que enumera todas las excepciones obvias, sin importar lo obvias que sean.
+
+Y, afortunadamente, en el mundo de las startups, ni siquiera me expongo a la gente que te da las excepciones obvias, y 
+todas las razones por las que no va a funcionar. Apenas me expongo a eso.
+
+**Naval:** Para eso está Twitter. Scott Adams se molestó tanto por esto que se le ocurrió una frase, un acrónimo, que 
+es "pero por supuesto hay excepciones obvias", BOCTAOE. Y durante un tiempo solía colgar ese acrónimo al final de sus 
+artículos.
+
+Pero Twitter está plagado de quisquillosos. Mientras que, tal y como señalabas, Silicon Valley ha aprendido que la ventaja 
+es tan grande que nunca se desprecia al chico que lleva una sudadera con capucha y tiene café en los zapatos. Y sólo parece 
+un vago porque no sabes si va a ser el próximo Mark Zuckerberg, o el próximo Reid Hoffman.
+
+Así que tienes que tratar a todo el mundo con respeto. Tienes que mirar hacia arriba a cada posibilidad, y la oportunidad 
+porque el lado bueno es tan ilimitado, y el lado malo es tan limitado en el mundo moderno, especialmente con los activos 
+e instrumentos financieros.
+
+## Ármate de conocimientos específicos
+
+**Nivi:** ¿Quieres hablar un poco sobre las habilidades que necesitas, en particular el conocimiento específico, la 
+responsabilidad, el apalancamiento y el juicio. Así que el primer tweet en esta área es "Ármate con conocimientos 
+específicos, responsabilidad y apalancamiento". Y también voy a añadir el juicio. No creo que hayas cubierto eso en ese 
+tweet en particular.
+
+**Naval:** Si quieres ganar dinero tienes que cobrar a escala. Y por qué tú, eso es responsabilidad, a escala, eso es 
+apalancamiento, y sólo tú recibiendo el pago en contraposición a alguien más recibiendo el pago, eso es conocimiento 
+específico.
+
+Así que, el conocimiento específico es probablemente la cosa más difícil de entender en toda esta tormenta de tweets, y 
+es probablemente la cosa que la gente se confunde más.
+
+La cosa es que tenemos esta idea de que todo puede ser enseñado, todo puede ser enseñado en la escuela. Y no es cierto 
+que todo se pueda enseñar. De hecho, las cosas más interesantes no se pueden enseñar. Pero todo se puede aprender. Y muy 
+a menudo ese aprendizaje proviene de algunas características innatas en tu ADN, o podría ser a través de tu infancia 
+donde aprendes habilidades blandas que son muy, muy difíciles de enseñar más adelante en la vida, o es algo que es 
+totalmente nuevo, así que nadie más sabe cómo hacerlo tampoco, o es un verdadero entrenamiento en el trabajo porque 
+estás emparejando patrones en entornos altamente complejos, básicamente construyendo juicio en un dominio específico.
+
+El ejemplo clásico es la inversión, pero podría ser cualquier cosa. Podría ser en el juicio en la gestión de una flota 
+de camiones, podría ser el juicio en la previsión del tiempo.
+
+Por lo tanto, los conocimientos específicos son los que te interesan. Especialmente si estás más tarde en la vida, 
+digamos que tus 20, 21, 22 años, casi no puedes elegir qué conocimientos específicos tienes. Más bien, tienes que ver 
+lo que ya has construido en ese momento, y entonces puedes construir sobre ello.
+
+## Los conocimientos específicos no se pueden entrenar
+
+Lo primero que hay que tener en cuenta sobre el conocimiento específico es que no se puede formar para él. Si puedes ser 
+entrenado para ello, si puedes ir a una clase y aprender un conocimiento específico, entonces alguien más puede ser 
+entrenado para ello también, y entonces podemos producir y entrenar en masa a la gente. Incluso podemos programar 
+ordenadores para que lo hagan y, con el tiempo, podemos programar robots para que lo hagan.
+
+Así que, si ese es el caso, entonces eres extremadamente reemplazable y todo lo que tenemos que pagarte es el salario 
+mínimo que tenemos que pagar para que lo hagas cuando hay muchos otros tomadores que pueden ser entrenados para hacerlo. 
+Así que, en realidad, tu rendimiento se reduce al coste de la formación más el rendimiento de la inversión en esa formación.
+
+Así que, si realmente quieres adquirir conocimientos específicos, necesitas tu formación para poder capitalizar los 
+mejores conocimientos específicos, pero la parte por la que te van a pagar es por los conocimientos específicos.
+
+## El conocimiento específico se encuentra persiguiendo tu curiosidad
+
+Por ejemplo, alguien se saca un grado en psicología y luego se convierte en vendedor. Bueno, si ya era un vendedor 
+formidable, un vendedor de alto grado para empezar, entonces el grado de psicología es una palanca, lo arma y le ayuda a ir 
+mucho mejor en las ventas.
+
+Pero si siempre fué una persona introvertida y nunca ha sido muy bueno en las ventas y está tratando de utilizar la psicología para aprender 
+a vender, simplemente no van a conseguir ser tan bueno en ventas.
+
+Así que el conocimiento específico se encuentra mucho más persiguiendo tus talentos innatos, tu curiosidad genuina y tu 
+pasión. No es por ir a la escuela para obtener cualquier trabajo que esté de moda, no es por ir a cualquier campo que 
+los inversores digan que es el más caliente.
+
+Muy a menudo, los conocimientos específicos están en el límite del conocimiento. También son cosas que acaban de ser 
+descubiertas o que son muy difíciles de descubrir.
+
+Así que, si no estás al 100% en ello, alguien que esté al 100% en ello te superará. Y no sólo te superarán por un poco, 
+te superarán por mucho porque ahora estamos operando el dominio de las ideas, el interés compuesto realmente se aplica y 
+el apalancamiento realmente se aplica.
+
+Así que, si estás operando con un apalancamiento de 1.000 veces y alguien está en lo cierto el 80% de las veces, y otro 
+está en lo cierto el 90% de las veces, la persona que está en lo cierto el 90% de las veces literalmente será recompensado 
+cien veces más por el mercado debido al apalancamiento y debido a los factores compuestos y a estar en lo cierto. Así que, 
+realmente quieres asegurarte de que eres bueno en ello, por lo que la curiosidad genuina es muy importante.
+
+## Construir un conocimiento específico te parecerá un juego
+
+Así que, muy a menudo, no es algo que se sienta y se razona, se encuentra más por observación. Casi tienes que mirar hacia 
+atrás en tu propia vida y ver en qué eres realmente bueno.
+
+Por ejemplo, yo quería ser científico y de ahí viene gran parte de mi jerarquía moral. Veo a los científicos en la cima 
+de la cadena de producción de la humanidad. Y los científicos han hecho verdaderos avances y contribuciones y 
+probablemente han añadido más a la sociedad humana, creo, que cualquier otra clase de seres humanos.
+
+No se trata de quitarle nada al arte, a la política, a la ingeniería o a los negocios, pero sin la ciencia todavía 
+estaríamos luchando en la tierra con palos y tratando de encender fuego.
+
+Todo mi sistema de valores se construyó en torno a los científicos y yo quería ser un gran científico. Pero cuando miro 
+hacia atrás y veo en qué era excepcionalmente bueno y en qué acabé gastando mi tiempo, era más bien en ganar dinero, en 
+juguetear con la tecnología y en vender cosas a la gente. Explicar cosas, hablar con la gente.
+
+Así que tengo algunas habilidades de venta, que es una forma de conocimiento específico que tengo. Tengo algunas 
+habilidades analíticas en torno a cómo hacer dinero. Y tengo la capacidad de absorber datos, obsesionarme con ellos y 
+desglosarlos, y esa es una habilidad específica que tengo. También me encanta jugar con la tecnología. Y todo esto me 
+parece un juego, pero a otros les parece un trabajo.
+
+Así que hay otras personas a las que estas cosas les resultan difíciles y dicen: "Bueno, ¿cómo se me da bien ser concisa 
+y vender ideas?". Bueno, si aún no eres bueno en eso o si no estás realmente en eso, tal vez no es lo tuyo, enfócate en 
+lo que realmente te gusta.
+
+Es irónico, pero la primera persona que me señaló mis verdaderos conocimientos específicos fue mi madre. Lo hizo como un 
+aparte, hablando desde la cocina y lo dijo cuando yo tenía como 15 o 16 años. Le estaba diciendo a un amigo que quería 
+ser astrofísico y ella dijo: "No, vas a dedicarte a los negocios".
+
+Y yo dije: "Qué, mi madre me dice que me voy a dedicar a los negocios. Voy a ser astrofísico. Mamá no sabe de lo que está 
+hablando". Pero mamá sabía exactamente de qué estaba hablando.
+
+Ya había observado que, cada vez que íbamos por la calle, yo criticaba a la pizzería local sobre por qué vendían sus 
+porciones de una determinada manera con ciertos ingredientes y por qué su proceso de pedido era de esta manera cuando 
+debería haber sido así.
+
+Así que sabía que tenía más bien una mente curiosa para los negocios, pero luego mi obsesión por la ciencia se combinó 
+para crear negocios de tecnología.
+
+Así que, muy a menudo, tus conocimientos específicos son observados y a menudo observados por otras personas que te 
+conocen bien y se revelan en situaciones más que algo que se te ocurre a ti.
+
+## Los conocimientos específicos pueden enseñarse a través de los aprendizajes
+
+**Naval:** La medida en que el conocimiento específico enseñado, es en el trabajo. Es a través del aprendizaje. 
+Y por eso las mejores empresas, las mejores carreras son las de aprendizaje o las autodidactas, porque son cosas que la 
+sociedad todavía no ha descubierto cómo formar y automatizar.
+
+La línea clásica aquí es que Warren Buffett fue a Benjamin Graham cuando salió de la escuela. Benjamin Graham fue el autor 
+del Inversor Inteligente y en cierto modo modernizó o creó la Value Investment como disciplina. Y Warren Buffett fue a 
+ver a Benjamin Graham y le ofreció trabajar gratis para él.
+
+Y Graham dijo: "En realidad, estás sobrevalorado, lo gratis está sobrevalorado". Y Graham tenía toda la razón. Cuando se 
+trata de un aprendizaje muy valioso como el que Graham iba a dar a Buffet, éste debería haberle pagado mucho dinero. Eso, 
+justo ahí, te dice que esas son habilidades que valen la pena tener.
+
+
+## Los conocimientos específicos suelen ser muy creativos o técnicos
+
+El conocimiento específico también tiende a ser técnico y creativo. Está en la punta de la tecnología, en la punta del 
+arte, en la punta de la comunicación.
+
+Incluso hoy en día, por ejemplo, es probable que haya señores de los memes en Internet que puedan crear increíbles memes 
+que difundan la idea a millones de personas. O son muy persuasivos - Scott Adams es un buen ejemplo de ello. Esencialmente 
+se está convirtiendo en una de las personas más creíbles del mundo al hacer predicciones precisas a través de argumentos 
+y vídeos persuasivos.
+
+Y eso es un conocimiento específico que ha construido a lo largo de los años porque se obsesionó con la hipnosis cuando 
+era joven, aprendió a comunicarse a través de los dibujos animados, abrazó Periscope pronto, así que ha estado practicando 
+mucha conversación, ha leído todos los libros sobre el tema, lo ha empleado en su vida diaria. Si miras a su novia, ella 
+es esta hermosa joven modelo de Instagram.
+
+Es un ejemplo de alguien que ha construido un conocimiento específico a lo largo de su carrera. Es altamente creativo, 
+tiene elementos de ser técnico en él, y es algo que nunca va a ser automatizado.
+
+Nadie le va a quitar eso, porque también es responsable bajo una marca como Scott Adams, y está operando con el 
+apalancamiento de los medios con Periscope y dibujando caricaturas de Dilbert y escribiendo libros. Él tiene un enorme 
+apalancamiento en la parte superior de esa marca y él puede construir la riqueza fuera de él si quería construir la 
+riqueza adicional más allá de lo que ya tiene.
+
+## Aprende a vender, aprende a construir
+
+**Nivi:** Hablando de combinar habilidades, has dicho que debes "aprender a vender, aprender a construir, si puedes 
+hacer ambas cosas, serás imparable".
+
+**Naval:** Esta es una categoría muy amplia. Son dos grandes categorías. Una es construir el producto. Que es difícil, y 
+es multivariable. Puede incluir el diseño, puede incluir el desarrollo, puede incluir la fabricación, la logística, 
+la adquisición, incluso puede ser diseñar y operar un servicio. Tiene muchas, muchas definiciones.
+
+Pero en cada industria, hay una definición del constructor. En nuestra industria tecnológica es el CTO, es el programador, 
+es el ingeniero de software, el ingeniero de hardware. Pero incluso en el negocio de la lavandería, podría ser la persona 
+que construye el servicio de lavandería, que hace que los trenes funcionen a tiempo, que se asegura de que toda la ropa 
+termine en el lugar correcto en el momento adecuado, etc.
+
+La otra cara de la moneda es la venta. De nuevo, vender tiene una definición muy amplia. Vender no significa necesariamente 
+vender a clientes individuales, sino que puede significar marketing, puede significar comunicación, puede significar 
+reclutamiento, puede significar recaudar dinero, puede significar inspirar a la gente, puede significar hacer relaciones 
+públicas. Es una categoría muy amplia.
+
+## El modelo de Silicon Valley es constructor y vendedor
+
+Así que, en general, el modelo de startup de Silicon Valley tiende a funcionar mejor. No es la única manera, pero 
+probablemente es la más común, cuando tienes dos fundadores, uno de los cuales es de clase mundial en la venta, y uno 
+de los cuales es de clase mundial en la construcción.
+
+Los ejemplos son, por supuesto, Steve Jobs y Steve Wozniak con Apple, Gates y Allen probablemente tenían responsabilidades 
+similares al principio con Microsoft, Larry y Sergey probablemente se rompieron en esa línea, aunque es un poco diferente 
+allí porque eso era un producto muy técnico entregado a los usuarios finales a través de una interfaz sencilla.
+
+Pero en general, verás este patrón repetido una y otra vez. Hay un constructor y hay un vendedor. Hay un combo de CEO y CTO. 
+Y los inversores de riesgo y tecnología están casi entrenados para buscar este combo siempre que sea posible. Es la 
+combinación mágica.
+
+## Si puedes hacer ambas cosas serás imparable
+
+Lo máximo es cuando un individuo puede hacer ambas cosas. Es entonces cuando se obtienen verdaderos superpoderes. Es 
+entonces cuando tienes personas que pueden crear industrias enteras.
+
+El ejemplo vivo es Elon Musk. Puede que no construya los cohetes él mismo, pero entiende lo suficiente como para hacer 
+contribuciones técnicas. Entiende la tecnología lo suficientemente bien como para que nadie le nieve en ella, y no va 
+por ahí haciendo afirmaciones que no cree que pueda llegar a cumplir. Puede que sea optimista en cuanto a los plazos, 
+pero cree que está dentro de lo razonable para la entrega.
+
+Incluso Steve Jobs desarrolló suficientes habilidades de producto y se involucró lo suficiente en el producto como para 
+operar también en estos dos ámbitos. Larry Ellison empezó como programador y creo que escribió la primera versión de 
+Oracle, o estuvo muy involucrado en ella.
+
+Marc Andreessen también estaba en este dominio. Puede que no tuviera suficiente confianza en sus habilidades de venta, 
+pero fue el programador que escribió Netscape Navigator, o una gran parte de él. Así que creo que los verdaderos gigantes 
+en cualquier campo son las personas que pueden tanto construir como vender.
+
+## Prefiero enseñarle marketing a un ingeniero, que ingeniería a un vendedor
+
+Y, por lo general, la construcción es algo que un vendedor no puede aprender más adelante. Requiere demasiado tiempo de 
+concentración. Pero un constructor puede aprender a vender un poco más tarde, sobre todo si ya está predispuesto a ser un 
+buen comunicador. Bill Gates lo parafrasea como: "Prefiero enseñarle marketing a un ingeniero, que ingeniería a un vendedor".
+
+Creo que si empiezas con una mentalidad de construcción y tienes habilidades de construcción y es todavía lo suficientemente 
+temprano en tu vida, o tienes suficiente tiempo enfocado que crees que puedes aprender a vender, y tienes algunas 
+características naturales o eres un buen vendedor, entonces te puedes apalancar en eso.
+
+Ahora bien, tus habilidades de venta podrían estar en un ámbito diferente al tradicional. Por ejemplo, digamos que eres un 
+ingeniero muy bueno y la gente dice, bueno, ahora tienes que ser bueno en las ventas, bueno, puede que no seas bueno en las 
+ventas cuerpo a cuerpo, pero puedes ser un escritor muy bueno.
+
+Y la escritura es una habilidad que se puede aprender mucho más fácilmente que, por ejemplo, la venta en persona, por lo 
+que puedes cultivar las habilidades de escritura hasta que te conviertas en un buen comunicador en línea y luego usar eso 
+para tus ventas.
+
+Por otro lado, puede ser que seas un buen constructor y se te dé mal la escritura y no te guste comunicarte con audiencias 
+masivas, pero seas bueno en el trato individual, así que podrías usar tus habilidades de venta para reclutar o recaudar 
+fondos, que son esfuerzos más individuales.
+
+Se trata de señalar que si estás en la intersección de estos dos, no desesperes porque no vas a ser el mejor tecnólogo y 
+no vas a ser el mejor vendedor, pero de una manera extraña, esa combinación, volviendo a la pila de habilidades de Scott 
+Adams, esa combinación de dos habilidades es imparable.
+
+A largo plazo, las personas que entienden el producto subyacente y la forma de construirlo y pueden venderlo, son un manjar 
+para los inversores, estas personas pueden derribar las paredes si tienen suficiente energía, y pueden conseguir casi 
+cualquier cosa. 
+
+**Nivi:** Si sólo pudieras elegir una para ser bueno, ¿cuál elegirías?
+
+**Naval:** Cuando intentas destacar entre el ruido, construir es mejor porque hay muchos vendedores que no tienen nada que los 
+respalde. Cuando estás empezando, cuando intentas ser reconocido, construir es mejor.
+
+Pero mucho más adelante, construir se vuelve agotador porque es un trabajo de enfoque y es difícil mantenerse al día porque 
+siempre hay gente nueva, nuevos productos que surgen que tienen herramientas más nuevas, y francamente más tiempo porque es 
+muy intenso, es una tarea muy enfocada.
+
+Por lo tanto, las habilidades de ventas en realidad escalan mejor con el tiempo. Como por ejemplo, si tienes una reputación 
+de construir un gran producto, eso es bueno, pero cuando envíes tu nuevo producto, voy a validarlo basándome en el producto. 
+Pero si tienes la reputación de ser una buena persona con la que hacer negocios y eres persuasivo y comunicativo, entonces 
+esa reputación casi se autocumple.
+
+Por lo tanto, creo que si sólo tuvieras que elegir una, puedes empezar con la construcción y luego pasar a la venta. Esta 
+es una respuesta que no tiene sentido, pero creo que es la respuesta correcta. 
+
+## Lee lo que te gusta hasta que te guste leer
+
+**Nivi:** Antes de que vayamos a hablar de la responsabilidad y el apalancamiento y el juicio, tienes unos cuantos tweets más 
+adelante que yo pondría en la categoría de aprendizaje continuo.
+
+Son esencialmente, "no hay ninguna habilidad llamada negocio. Evita las revistas de negocios y las clases de negocios, estudia 
+microeconomía, teoría del juego, psicología, persuasión, ética, matemáticas e informática".
+
+Hay otro comentario que hiciste en un Periscope que fue, "deberías ser capaz de coger cualquier libro en la biblioteca y leerlo". 
+Y el último tuit de esta categoría fue: "leer es más rápido que escuchar, hacer es más rápido que mirar".
+
+**Naval:** Sí, el tweet más importante de esto, ni siquiera lo tengo aquí por desgracia, que es, la base del aprendizaje es 
+la lectura. No conozco a una persona inteligente que no lea y lea todo el tiempo.
+
+Y el problema es, ¿qué leo? ¿Cómo leo? Porque para la mayoría de la gente es una lucha, es una tarea. Así que lo más 
+importante es aprender a educarse y la forma de educarse es desarrollar el amor por la lectura.
+
+Así que, el tuit que queda fuera, el que estaba insinuando es, "lee lo que amas hasta que ames leer". Es así de sencillo.
+
+Todas las personas que conozco que leen mucho aman la lectura, y aman la lectura porque leyeron libros que les encantaron. 
+Es un poco complicado, pero básicamente hay que empezar a leer donde sea y luego seguir aumentando la lectura hasta que se 
+convierta en un hábito. Y luego, con el tiempo, te aburrirás de las cosas sencillas.
+
+Así que puedes empezar leyendo ficción, luego puedes pasar a la ciencia ficción, luego puedes pasar a la no ficción, luego 
+puedes pasar a la ciencia, o a la filosofía, o a las matemáticas o a lo que sea, pero toma tu camino natural y sólo lee las 
+cosas que te interesan hasta que las entiendas. Y luego, naturalmente, pasarás a lo siguiente, y a lo siguiente, y a lo 
+siguiente. 
+
+## Lee los libros científicos originales en un campo
+
+Ahora, hay una excepción a esto, me refiero las cosas que realmente quieres aprender porque en 
+algún momento habrá demasiado por ahí para leer. Incluso la lectura está llena de basura.
+
+Hay cosas que puedes leer, especialmente al principio, que programarán tu cerebro de una manera determinada, y luego sobre las 
+cosas posteriores que leas, decidirás si esas cosas son verdaderas o falsas basándote en las cosas anteriores.
+
+Por lo tanto, es importante que leas cosas fundamentales. Y las cosas fundamentales, diría yo, son los libros originales en 
+un campo determinado que son muy científicos en su naturaleza.
+
+Por ejemplo, en lugar de leer un libro de negocios, coge La riqueza de las naciones de Adam Smith. En lugar de leer un libro 
+sobre biología o evolución escrito hoy, cogería El origen de las especies de Darwin. En lugar de leer un libro sobre 
+biotecnología que esté escrito hoy en día, cogería El octavo día de la creación, de Watson y Crick. En lugar de leer 
+libros avanzados sobre cosmología y lo que han dicho Neil Degrasse Tyson y Stephen Hawking, cogería Six Easy Pieces 
+de Richard Feynman y empezaría con la física básica.
+
+## No temas a ningún libro
+
+Si entiendes lo básico, sobre todo en matemáticas, física y ciencias, no tendrás miedo de ningún libro. Todos tenemos ese 
+recuerdo de cuando estábamos sentados en clase y estábamos aprendiendo matemáticas, y todo era lógico y todo tenía sentido 
+hasta que en un momento dado la clase avanzaba demasiado rápido y nos quedábamos atrás.
+
+Entonces, después de eso, nos quedamos memorizando ecuaciones, memorizando conceptos sin poder derivarlos de los primeros 
+principios. Y en ese momento, estamos perdidos, porque a menos que seas un matemático profesional, no vas a recordar esas 
+cosas. Todo lo que vas a recordar son las técnicas, los fundamentos.
+
+Así que tienes que asegurarte de que estás construyendo sobre una estructura de acero de la comprensión porque estás armando 
+los cimientos de un rascacielos, y no estás simplemente memorizando cosas porque si solo estás memorizando cosas estás 
+perdido. Así que los cimientos son ultra importantes.
+
+Y lo máximo, lo máximo es cuando entras en una biblioteca y la miras de arriba a abajo y no temes ningún libro. Sabes que 
+puedes coger cualquier libro de la estantería, puedes leerlo, puedes entenderlo, puedes absorber lo que es verdad, 
+puedes rechazar lo que es falso, y tienes una base incluso para trabajar eso que es lógico y científico y no puramente 
+basado en opiniones.
+
+## Los medios para aprender son abundantes; las ganas de aprender son escasas
+
+La belleza de Internet es que toda la biblioteca de Alejandría por 10 está al alcance de tu mano en todo momento. No es 
+que los medios de educación o los medios de aprendizaje sean escasos, los medios de aprendizaje son abundantes. Lo que 
+escasea es el deseo de aprender. Así que hay que cultivar el deseo.
+
+Y ni siquiera hay que cultivarlo para no perderlo. Los niños tienen una curiosidad natural. Si vas a ver a un niño pequeño 
+que está aprendiendo un idioma por primera vez, casi siempre está preguntando: ¿Qué es esto? ¿Qué es esto? ¿Por qué es esto? 
+¿Quién es? Siempre están haciendo preguntas.
+
+Pero uno de los problemas es que las escuelas y nuestro sistema educativo, e incluso nuestra forma de criar a los niños, 
+sustituyen la curiosidad por la conformidad. Y una vez que se sustituye la curiosidad por la conformidad, se obtiene un 
+trabajador de fábrica obediente, pero ya no se obtiene un pensador creativo. Y necesitas creatividad, necesitas la capacidad 
+de alimentar tu propio cerebro para aprender lo que quieras. 
