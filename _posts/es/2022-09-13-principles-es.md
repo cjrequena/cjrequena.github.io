@@ -146,7 +146,7 @@ Comparando los resultados y los objetivos, puedes decidir cómo modificar la maq
 </h4>
 
 <h4 style="color: firebrick; margin-left: 33px">
-<span style="color:firebrick">b. </span> 
+<span style="color:firebrick">c. </span> 
 Distingue entre tú como diseñador de tu maquinaria y como operario de esta.
 </h4>
 
@@ -225,31 +225,107 @@ Aceptar cómo lidiar con tus tropiezos es tan importante como seguir adelante.
 ## 2.2 Identifica y no tolores los problemas.
 <h4 style="color: firebrick; margin-left: 33px">
 <span style="color:firebrick">a. </span> 
-
+Considera los problemas dolorosos como mejoras en potencia que te hacen señas evidentes.
 </h4>
 
 <h4 style="color: firebrick; margin-left: 33px">
 <span style="color:firebrick">b. </span> 
-
+No evites afrontar los problemas porque provienen de realidades desagradables que no es grato afrontar.
 </h4>
 
 <h4 style="color: firebrick; margin-left: 33px">
 <span style="color:firebrick">c. </span> 
-
+Identifica los problemas de manera especifica.
 </h4>
 
 <h4 style="color: firebrick; margin-left: 33px">
 <span style="color:firebrick">d. </span> 
-
+No confundas la causa de un problema con el problema en si mismo.
 </h4>
 
 <h4 style="color: firebrick; margin-left: 33px">
 <span style="color:firebrick">e. </span> 
-
+Distingue los problemas grandes de los pequeños.
 </h4>
 
 <h4 style="color: firebrick; margin-left: 33px">
 <span style="color:firebrick">f. </span> 
-
+Una vez identificado el problema, no lo toleres.
 </h4>
 
+## 2.3 Diagnostica los problemas para llegar a sus causas últimas.
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">a. </span> 
+Primero debes saber qué pasa y luego decidir qué vas a hacer.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">b. </span> 
+Distingue las causas primeras de las causas últimas.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">c. </span> 
+Admite que si conoces a alguien (tambien a ti mismo) sabrás qué esperar de él.
+</h4>
+
+## 2.4 Traza un plan.
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">a. </span> 
+Retrocede antes de avanzar.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">b. </span> 
+Considera los problemas como una serie de resultados producidos por una maquina.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">c. </span> 
+Recuerda que normalmente hay muchos caminos para llegar a un mismo fin.
+</h4>
+
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">d. </span> 
+Piensa en un plan como en un guión cinematográfico que muestre qué debe hacer cada uno a los largo del tiempo.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">e. </span> 
+Considera poner tu plan por escrito, para que todos lo vean y usen como baremo de tu progreso.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">f. </span> 
+Reconoce que no necesitas demasiado tiempo para diseñar un buen plan.
+</h4>
+
+## 2.5 Transforma las estrategias en resultados.
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">a. </span> 
+Los buenos planificadores que no ponen en práctica sus ideas van sin rumbo.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">b. </span> 
+Los buenos habitos de trabajo se subestiman demasiado.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">c. </span> 
+Establece parámetros claros para asegurarte de que sigues el plan.
+</h4>
+
+## 2.6 Recuerda que las flaquezas no importan si les encuentras souciones.
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">a. </span> 
+Busca patrones en los errores e identifica qué paso. 
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">b. </span> 
+Cada cual tiene un obstáculo principal que se interpone entre él y él éxito; debes encontrar el tuyo y afrontarlo debidamente.
+</h4>
+
+## 2.7 Comprende tu esquema mental y tu humildad, así como los ajenos.
