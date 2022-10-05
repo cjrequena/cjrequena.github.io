@@ -400,11 +400,6 @@ Hacer planes para que el peor caso factible sea lo mejor posible.
 
 <h4 style="color: firebrick; margin-left: 33px">
 <span style="color:firebrick">a. </span> 
-
-</h4>
-
-<h4 style="color: firebrick; margin-left: 33px">
-<span style="color:firebrick">a. </span> 
 Utiliza el dolor con regularidad como guía hacia unas reflexiones de calidad.
 </h4>
 
