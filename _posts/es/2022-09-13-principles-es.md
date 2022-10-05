@@ -329,3 +329,121 @@ Cada cual tiene un obstáculo principal que se interpone entre él y él éxito;
 </h4>
 
 ## 2.7 Comprende tu esquema mental y tu humildad, así como los ajenos.
+
+# **3. Sé radicalmente abierto de miras.**
+
+## 3.1 Reconoce las dos barreras.
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">a. </span> 
+Entiende la barrera del ego.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">b. </span> 
+Los dos yos y su lucha por el control.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">c. </span> 
+Entiende la barrera del punto ciego.
+</h4>
+
+## 3.2 Practica una apertura de miras radical.
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">a. </span> 
+Cree sinceramente que, quizá, deconozcas cuál es el mejor camino, y reconoce que la capacidad de aceptar esa ignorancia es mas importante que todo lo que sepas.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">b. </span> 
+Reconoce que las decisiones se toman en dos etapas: primero se recopila toda la información relevante y luego se decide.
+</h4>
+
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">c. </span> 
+No te preocupes por la apariencias, sino por el objetivo.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">d. </span> 
+Reconoce que es imposible producir sin aprender.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">e. </span> 
+Reconoce que, para ponerte efectivamente en la piel del otro y ver el mundo desde su perspectiva, has de de proceder a una suspención temporal del juicio: solo desde la empatía podrás evaluar correctamente una perspectiva ajena.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">f. </span> 
+Recuerda que buscas la mejor respuesta, no la mejor respuesta que puedas llegar por tu cuenta.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">g. </span> 
+Deja claro si estás discutiendo o si quieres aprender y endenter. Piensa en qué opción es mejor, según tu credibilidad propia y la de los demás.
+</h4>
+
+
+## 3.3 Aprecia el arte del desacuerdo reflexivo.
+
+## 3.4 Triangula tu perspectiva con gente creíble dispuesta a discrepar.
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">a. </span> 
+Hacer planes para que el peor caso factible sea lo mejor posible.
+</h4>
+
+## 3.5 Reconoce los sintomas de la cerrazón y la apertura de miras y préstales atención.
+
+## 3.6 Entiende cómo se puede llegar a ser radicalmente abierto de miras.
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">a. </span> 
+
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">a. </span> 
+Utiliza el dolor con regularidad como guía hacia unas reflexiones de calidad.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">b. </span> 
+Haz de la apertura de miras una constumbre.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">c. </span> 
+Conoce tus puntos ciegos.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">d. </span> 
+Si varias personas creíbles te dicen que estas obrando mal, y eres el único que no lo ve así, da por supuesto que seguramente no estés siendo neutral.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">e. </span> 
+Medita.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">f. </span> 
+Básate en los hechos y anima a los demás a que hagan los mismo.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">g. </span> 
+Haz todo lo que esté en tus manos para ayudar a los demás a ser tambien abiertos de miras.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">h. </span> 
+Utilza una herramienta de decisión basada en los hechos.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">g. </span> 
+Comprende cuándo es mejor rendirse y tener fe en tu sistema de toma de decisiones.
+</h4>
