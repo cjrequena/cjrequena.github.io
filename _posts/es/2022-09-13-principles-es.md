@@ -317,7 +317,7 @@ Los buenos habitos de trabajo se subestiman demasiado.
 Establece parámetros claros para asegurarte de que sigues el plan.
 </h4>
 
-## 2.6 Recuerda que las flaquezas no importan si les encuentras souciones.
+## 2.6 Recuerda que las flaquezas no importan si les encuentras soluciones.
 <h4 style="color: firebrick; margin-left: 33px">
 <span style="color:firebrick">a. </span> 
 Busca patrones en los errores e identifica qué paso. 
@@ -439,6 +439,6 @@ Utilza una herramienta de decisión basada en los hechos.
 </h4>
 
 <h4 style="color: firebrick; margin-left: 33px">
-<span style="color:firebrick">g. </span> 
+<span style="color:firebrick">i. </span> 
 Comprende cuándo es mejor rendirse y tener fe en tu sistema de toma de decisiones.
 </h4>
