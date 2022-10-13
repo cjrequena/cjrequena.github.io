@@ -442,3 +442,51 @@ Utilza una herramienta de decisión basada en los hechos.
 <span style="color:firebrick">i. </span> 
 Comprende cuándo es mejor rendirse y tener fe en tu sistema de toma de decisiones.
 </h4>
+
+# **4. Entiende que las personas funcionan de formas muy distintas.**
+
+## 4.1 Entiende el poder que se deriva de comprender cómo funcionas tú y los demás.
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">a. </span> 
+Naces con atributos que pueden ser una ayuda o un escollo, según cómo los utilices.
+</h4>
+
+## 4.2 El trabajo y las relaciones significativas no son solo cosas bonitas que escoges, sino que las llevas programadas genéticamente.
+
+## 4.3 Entiende las grandes batallas mentales y cómo controlarlas para obtener lo que quieres.
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">a. </span> 
+Entiende que la mente consciente está enzarzada en una batalla con la mente inconsciente.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">b. </span> 
+Sé consciente de que la luca más constante que existe es la de los sentimientos y el pensamiento.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">c. </span> 
+Compagina los sentimientos y el pensamiento.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">d. </span> 
+Escoge bien tus hábitos.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">e. </span> 
+Instruye al yo inferior de forma afable y persistente para desarrollar buenos hábitos.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">f. </span> 
+Entiende la diferencia entre el hemisferio derecho y el izquierdo, y el pensamiento derivado de cada uno.
+</h4>
+
+<h4 style="color: firebrick; margin-left: 33px">
+<span style="color:firebrick">g. </span> 
+Entiende lo mucho y lo poco que el cerebro puede cambiar.
+</h4>
