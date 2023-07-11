@@ -59,7 +59,7 @@ vpc-us-west-2-prod-web-app-stack
 ## Subnet Naming Conventions
 
 **Default Pattern Format**      
-``subnet-RegionCode-AvailabilityZoneCode-SubnetRouteCode-EnvironmentCode-ApplicationStackCode````
+``subnet-RegionCode-AvailabilityZoneCode-SubnetRouteCode-EnvironmentCode-ApplicationStackCode``
 
 **RegExp**      
 ``^subnet-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-([1-2]{1})([a-c]{1})-(public|private)-(dev|test|stg|prod)-([a-z0-9\-]+)$``
@@ -74,13 +74,13 @@ subnet-us-west-1-2b-private-prod-database-stack
 -----------
 ## EC2 Instance Naming Conventions
 
-**Default Pattern Format**
+**Default Pattern Format**      
 ``ec2-RegionCode-AvailabilityZoneCode-EnvironmentCode-ApplicationCode``
 
 **RegExp**      
 ``^ec2-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-([1-2]{1})([a-c]{1})-(dev|test|stg|prod)-([a-z0-9\-]+)$```
 
-**Examples**
+**Examples**        
 <span style="color:silver;">
 ec2-us-east-1-2a-prod-tomcat
 <br>
