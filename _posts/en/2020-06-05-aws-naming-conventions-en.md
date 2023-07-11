@@ -45,9 +45,7 @@ improving clarity in cases of potential ambiguity and enhancing aesthetic and pr
 
 **RegExp**  
 
-```regexp
-^vpc-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-(dev|test|stg|prod)-([a-z0-9\-]+)$
-```
+``^vpc-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-(dev|test|stg|prod)-([a-z0-9\-]+)$``
 
 **Examples**    
 
@@ -61,14 +59,10 @@ vpc-us-west-2-prod-web-app-stack
 ## Subnet Naming Conventions
 
 **Default Pattern Format**      
-```regexp
-subnet-RegionCode-AvailabilityZoneCode-SubnetRouteCode-EnvironmentCode-ApplicationStackCode``
-```
+``subnet-RegionCode-AvailabilityZoneCode-SubnetRouteCode-EnvironmentCode-ApplicationStackCode````
 
 **RegExp**      
-```regexp
-^subnet-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-([1-2]{1})([a-c]{1})-(public|private)-(dev|test|stg|prod)-([a-z0-9\-]+)$
-```
+``^subnet-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-([1-2]{1})([a-c]{1})-(public|private)-(dev|test|stg|prod)-([a-z0-9\-]+)$``
 
 **Examples**            
 <span style="color:silver;">
@@ -81,14 +75,10 @@ subnet-us-west-1-2b-private-prod-database-stack
 ## EC2 Instance Naming Conventions
 
 **Default Pattern Format**
-```regexp
-ec2-RegionCode-AvailabilityZoneCode-EnvironmentCode-ApplicationCode
-```
+``ec2-RegionCode-AvailabilityZoneCode-EnvironmentCode-ApplicationCode``
 
 **RegExp**      
-```regexp
-^ec2-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-([1-2]{1})([a-c]{1})-(dev|test|stg|prod)-([a-z0-9\-]+)$
-```
+``^ec2-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-([1-2]{1})([a-c]{1})-(dev|test|stg|prod)-([a-z0-9\-]+)$```
 
 **Examples**
 <span style="color:silver;">
@@ -101,14 +91,10 @@ ec2-us-west-1-2b-prod-nodejs
 ## PEM Key Naming Conventions
 
 **Default Pattern Format**      
-```regexp
-key-RegionCode-EnvironmentCode-ApplicationCode
-```
+``key-RegionCode-EnvironmentCode-ApplicationCode``
 
 **RegExp**
-```regexp
-^key-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-(dev|test|stg|prod)-([a-z0-9\-]+)$
-```
+``^key-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-(dev|test|stg|prod)-([a-z0-9\-]+)$``
 
 **Examples**        
 <span style="color:silver;">
