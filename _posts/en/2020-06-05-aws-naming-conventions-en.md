@@ -25,32 +25,16 @@ improving clarity in cases of potential ambiguity and enhancing aesthetic and pr
 ``(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)``
 
 **Availability Zone Code**  
-```regexp
-([1-2]{1})([a-c]{1})
-``` 
-
-<span style="color:silver;">(2a|2b|2c) for us-west-2a, us-west-2b, us-west-2c</span>
+``([1-2]{1})([a-c]{1})``
 
 **Environment Code**    
-```regexp
-(dev|test|stg|prod)
-``` 
-
-<span style="color:silver;">For development, test, staging, production.</span>
+``(dev|test|stg|prod)`` 
 
 **Application Code**     
-```regexp
-([a-z0-9\-]+)
-``` 
-
-<span style="color:silver;">For the application stack that runs within the VPC (e.g. bid-data-app-stack).</span>
+``([a-z0-9\-]+)`` 
 
 **Subnet Route Code**   
-```regexp
-(public|private)
-``` 
-
-<span style="color:silver;">For public, private</span>
+``(public|private)``
 
 -----------
 ## VPC Naming Conventions
