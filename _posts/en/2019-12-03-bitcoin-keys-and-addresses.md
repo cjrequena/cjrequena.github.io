@@ -53,11 +53,18 @@ Algebraic formulae are constructed to efficiently compute the geometric arithmet
 ![]({{ site.baseurl }}/assets/images/bitcoin/elliptic_curve_point_addition.png)
 
 $$
- \begin{array}{l}
-When\ P=(_{Xp} ,_{Yp}) \ and\ Q\ =(_{Xq} ,_{Yq\ }) \ are\ not\ negative\ of\ each\ other,\ P\ +\ Q\ =\ R\ \ \\
-where\ m\ =\ \ \frac{(_{Yp} -_{Yq\ })}{(_{Xp} -_{Xq\ })} \ \ \\
-_{Xr} \ =m^{2} \ −\ _{Xp} \ -\ _{Xq} \ \\
-_{Yr} \ =\ -_{Yp} \ +\ m(_{Xp} \ -\ _{Xr})
+\begin{array}{l}
+
+When\ P=({X_p},{Y_p}) \ and\ Q=({X_q},{Y_q}) \ and \ they \ are \ not \ negative \ of \ each \ other \\  
+
+P + Q = R \\
+
+{X_r}= m^{2} − {X_p} - {X_q} \\
+
+{Y_r} = -{Y_p} + m({X_p} - {X_r}) \\
+
+where \ m= \frac { ({Y_p} - {Y_q}) } { ({X_p} - {X_q}) } \\
+
 \end{array}
 $$
 
@@ -70,11 +77,25 @@ $$
 When P and Q share the same position (X and Y wise), addind two points (P and Q ) that share the same location **is called “Doubling the point P” also referred as adding a point to itself.**
 
 $$
- \begin{array}{l}
-When\ Yp\ \neq 0,\ 2P\ =\ R\ \\
-where\ m\ =\ \frac{\left( 3Xp^{2} \ +\ a\right)}{( 2Yp\ )} \ \\
-_{Xr} \ =m^{2} \ −\ _{2Xp}\\
-_{Yr} \ =\ -_{Yp} \ +\ m(_{Xp} \ -\ _{Xr})
+\begin{array}{l}
+
+When\ {Y_p} \neq 0,\ 2P\ =\ R\ \\
+
+{X_r} = m^{2}  − {2X_p} \\
+
+{Y_r} = -{Y_p} \ +\ m({X_p} \ -\ {X_r}) \\
+
+Where\ m\ =\ \frac{\left( 3Xp^{2} \ +\ a\right)}{( 2Yp\ )} \\
+
+m \ is \ the \ slope \ of \ the \ tangent \ line \ when \ point \ P \ and \ point \ Q \ are \ or \ tend \ to \ be \ equal, \\
+
+then \ deriving \\
+
+\frac{\text{d}y(x)}{\text{d}x}(\sqrt{x^{3} + 7 + a})  =  \frac{\left( 3X^{2} \ +\ a\right)}{( 2Y\ )} \\
+
+
+
+
 \end{array}
 $$
 
