@@ -72,13 +72,27 @@ subnet-us-west-1-2b-private-prod-database-stack
 </span>
 
 -----------
+## Security Group Naming Conventions
+
+**Default Pattern Format**      
+``sg-RegionCode-EnvironmentCode-ApplicationCode``
+
+**RegExp**      
+``^sg-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-(dev|test|stg|prod)-([a-z0-9\-]+)$``
+
+**Examples**        
+<span style="color:silver;">
+sg-us-west-1-dev-ec2_instance_1
+</span>
+
+-----------
 ## EC2 Instance Naming Conventions
 
 **Default Pattern Format**      
 ``ec2-RegionCode-AvailabilityZoneCode-EnvironmentCode-ApplicationCode``
 
 **RegExp**      
-``^ec2-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-([1-2]{1})([a-c]{1})-(dev|test|stg|prod)-([a-z0-9\-]+)$```
+``^ec2-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-([1-2]{1})([a-c]{1})-(dev|test|stg|prod)-([a-z0-9\-]+)$``
 
 **Examples**        
 <span style="color:silver;">
