@@ -75,14 +75,14 @@ subnet-us-west-1-2b-private-prod-database-stack
 ## Security Group Naming Conventions
 
 **Default Pattern Format**      
-``sg-RegionCode-EnvironmentCode-ApplicationCode``
+``security-group-RegionCode-EnvironmentCode-ApplicationCode``
 
 **RegExp**      
-``^sg-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-(dev|test|stg|prod)-([a-z0-9\-]+)$``
+``^security-group-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-(dev|test|stg|prod)-([a-z0-9\-]+)$``
 
 **Examples**        
 <span style="color:silver;">
-sg-us-west-1-dev-ec2_instance_1
+security-group-us-west-1-dev-ec2-instance-1
 </span>
 
 -----------
