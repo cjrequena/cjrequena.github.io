@@ -70,46 +70,65 @@ The prefix ensures that tags are clearly identified as having been defined by yo
 [[AWS] Naming Conventions Best Practices](https://cjrequena.com/2020-06-05/aws-naming-conventions-en)
 
 # Tagging categories
-## Technical Tags
--   **name** – Identify individual resources 
+## Technical Tags:
+1. **name**: Used to give a descriptive name to the resource. For example, "web-server-prod" or "db-dev".
+2. **owner**: Specifies the person or team responsible for the resource. This can be an individual's name, team name, or email address.
+3. **availability-zone**: Specifies the availability zone or region where the resource is located.
+4. **service**: Indicates the AWS service associated with the resource, such as "ec2", "s3", "rds", etc.
+5. **lifecycle**: Specifies the lifecycle stage of the resource, such as "active", "inactive", "archived".
+6. **version**: Indicates the version of the resource if applicable.
+7. **created-date**: Specifies the date when the resource was created.
+8. **last-modified-date**: Specifies the date when the resource was last modified.
+9. **resource-id**: Unique identifier for the resource.
+10. **environment-type**: Specifies the type of environment, such as "test", "qa", or "production".
 
--   **application-id** – Identify resources that are related to a specific application 
+## Tags for Automation:
+1. **automated**: Indicates whether the resource is managed by automation tools. Values can be "yes" or "no".
+2. **auto-scaling-group**: Indicates the auto-scaling group associated with the resource.
+3. **automation-tool**: Specifies the automation tool used to manage the resource, such as "cloudformation", "terraform", etc.
+4. **scheduled-automation**: Indicates whether the resource is part of scheduled automation tasks. Values can be "yes" or "no".
+5. **continuous-integration**: Indicates whether the resource is integrated with a continuous integration (CI) system.
+6. **automated-backup**: Specifies whether automated backups are enabled for the resource.
+7. **auto-shutdown**: Indicates whether the resource has an automated shutdown schedule.
+8. **auto-recovery**: Specifies whether the resource is configured for automatic recovery in case of failure.
+9. **auto-scaling-policy**: Indicates the auto-scaling policy associated with the resource.
+10. **automated-monitoring**: Specifies whether automated monitoring is enabled for the resource.
 
--   **application-role** – Describe the function of a particular resource (such as web server, message broker, database)
+## Business Tags:
+1. **cost-center**: Associates the resource with a specific cost center or project code for financial tracking and allocation.
+2. **department**: Indicates the department or business unit that owns or uses the resource. Useful for chargebacks and cost allocation.
+3. **project**: Associates the resource with a specific project or initiative within the organization.
+4. **business-unit**: Specifies the business unit that the resource belongs to.
+5. **customer-id**: Identifies the customer or client associated with the resource.
+6. **revenue-center**: Associates the resource with a specific revenue center or profit center.
+7. **business-criticality**: Indicates the business criticality of the resource, such as "high", "medium", or "low".
+8. **contract-id**: Specifies the contract ID related to the resource.
+9. **service-level-agreement**: Indicates the service level agreement (SLA) associated with the resource.
+10. **business-impact**: Specifies the potential business impact of the resource being unavailable.
 
--   **cluster** – Identify resource farms that share a common configuration and perform a specific function for an application
+## Security Tags:
+1. **security-classification**: Specifies the security classification or sensitivity level of the resource, such as "public", "internal", "confidential".
+2. **compliance**: Specifies the compliance status of the resource, such as "hipaa", "pci-dss", "gdpr", etc.
+3. **backup**: Indicates whether the resource is included in regular backups or not. Values can be "yes" or "no".
+4. **encryption**: Indicates whether the resource data is encrypted at rest and/or in transit.
+5. **access-control-list**: Specifies the access control list (ACL) associated with the resource.
+6. **security-group**: Indicates the security group associated with the resource.
+7. **firewall-rule**: Specifies the firewall rule associated with the resource.
+8. **vulnerability**: Indicates the vulnerability status of the resource, such as "vulnerable", "patched", etc.
+9. **data-classification**: Specifies the data classification level of the resource, such as "sensitive", "confidential", etc.
+10. **security-policy**: Indicates the security policy applied to the resource.
 
--   **environment** – Distinguish between development, test, and production resources
-
--   **version** – Help distinguish between versions of resources or applications
-
-## Tags for Automation
-
--   **date/time** – Identify the date or time a resource should be started, stopped, deleted, or rotated
-
--   **opt-in/opt-out** – Indicate whether a resource should be included in an automated activity such as starting, stopping, or resizing instances
-
--   **security** – Determine requirements, such as encryption or enabling of Amazon VPC flow logs; identify route tables or security groups that need extra scrutiny
-
-
-## Business Tags
-
--   **project** – Identify projects that the resource supports
-
--   **owner** – Identify who is responsible for the resource
-
--   **cost-center/business-unit** – Identify the cost center or business unit associated with a resource, typically for cost allocation and tracking
-
--   **customer** – Identify a specific client that a particular group of resources serves
-
-
-## Security Tags
-
--   **confidentiality** – An identifier for the specific data confidentiality level a resource supports
-
--   **compliance** – An identifier for workloads that must adhere to specific compliance requirements
-
-
+## Tags for Classification:
+1. **environment**: Indicates the environment the resource belongs to, such as "production", "development", or "staging".
+2. **application**: Identifies the application or project to which the resource belongs. Useful for multi-application environments.
+3. **region**: Specifies the AWS region where the resource is located.
+4. **zone**: Indicates the availability zone within a region where the resource is located.
+5. **role**: Specifies the role or function of the resource within the system architecture.
+6. **service-type**: Specifies the type of service provided by the resource, such as "web", "database", etc.
+7. **deployment-stage**: Indicates the deployment stage of the resource, such as "alpha", "beta", "release-candidate", etc.
+8. **cost-allocation**: Specifies the cost allocation tag for financial tracking purposes.
+9. **cost-savings**: Indicates whether the resource is part of a cost-saving initiative. Values can be "yes" or "no".
+10. **expiration-date**: Specifies the date when the resource should be reviewed or decommissioned. Useful for managing resource lifecycle.
 
 # Tagging Use Cases
 ## Tags for AWS Console Organization and Resource Groups
