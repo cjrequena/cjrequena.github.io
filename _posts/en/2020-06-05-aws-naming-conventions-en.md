@@ -41,18 +41,18 @@ improving clarity in cases of potential ambiguity and enhancing aesthetic and pr
 
 **Default Pattern Format**  
 
-``vpc-RegionCode-EnvironmentCode-ApplicationStackCode``
+``vpc_{RegionCode}_{EnvironmentCode}_{ApplicationCode}``
 
 **RegExp**  
 
-``^vpc-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-(dev|test|stg|prod)-([a-z0-9\-]+)$``
+``^vpc_(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)_(dev|test|stg|prod)_([a-z0-9\-]+)$``
 
 **Examples**    
 
 <span style="color:silver;">
-vpc-us-east-1-prod-big-data-app-stack
+vpc_us-east-1_prod_big-data-app-stack
 <br>
-vpc-us-west-2-prod-web-app-stack
+vpc_us-west-2_prod_web-app-stack
 </span>
 
 -----------
@@ -123,3 +123,49 @@ key-us-west-1-prod-database
 <span style="color:silver;">References</span>
 - [Cloud Conformity VPCs](https://www.cloudconformity.com/knowledge-base/aws/VPC/vpc-naming-conventions.html#)
 - [Cloud Conformity EC2](https://www.cloudconformity.com/knowledge-base/aws/EC2/ec2-instance-naming-conventions.html#)
+
+-----------
+## ECS Cluster Naming Conventions
+
+**Default Pattern Format**      
+``ecs-cluster_{RegionCode}-{EnvironmentCode}-{ApplicationCode}``
+
+**RegExp**      
+``^ecs-cluster_(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)_(dev|test|stg|prod)_([a-z0-9\-]+)$``
+
+**Examples**        
+<span style="color:silver;">
+ecs-cluster_us-east-1_prod_tomcat
+<br>
+ecs-cluster_us-east-1_prod_micro-app
+</span>
+
+## ECS Task Definition Naming Conventions
+
+**Default Pattern Format**      
+``ecs-task_{RegionCode}_{EnvironmentCode}_{ApplicationCode}_{Vesion}``
+
+**RegExp**      
+``^ecs-task_(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)_(dev|test|stg|prod)_([a-z0-9\-]+)_v1$``
+
+**Examples**        
+<span style="color:silver;">
+ecs-task_us-east-1_prod_tomcat_v1
+<br>
+ecs-task_us-east-1_prod_micro-app_v1
+</span>
+
+## ECS Service Definition Naming Conventions
+
+**Default Pattern Format**      
+``ecs-service_{RegionCode}_{EnvironmentCode}_{ApplicationCode}_{Vesion}``
+
+**RegExp**      
+``^ecs-service_(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)_(dev|test|stg|prod)_([a-z0-9\-]+)_v1$``
+
+**Examples**        
+<span style="color:silver;">
+ecs-service_us-east-1_prod_tomcat_v1
+<br>
+ecs-service_us-east-1_prod_micro-app_v1
+</span>
