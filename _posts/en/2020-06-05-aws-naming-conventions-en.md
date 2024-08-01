@@ -117,13 +117,6 @@ key-us-east-1-prod-web-server
 key-us-west-1-prod-database 
 </span>
 
-
-<br>
-> 
-<span style="color:silver;">References</span>
-- [Cloud Conformity VPCs](https://www.cloudconformity.com/knowledge-base/aws/VPC/vpc-naming-conventions.html#)
-- [Cloud Conformity EC2](https://www.cloudconformity.com/knowledge-base/aws/EC2/ec2-instance-naming-conventions.html#)
-
 -----------
 ## ECS Cluster Naming Conventions
 
@@ -169,3 +162,10 @@ ecs-service_us-east-1_prod_tomcat_v1
 <br>
 ecs-service_us-east-1_prod_micro-app_v1
 </span>
+
+
+<br>
+> 
+<span style="color:silver;">References</span>
+- [Cloud Conformity VPCs](https://www.cloudconformity.com/knowledge-base/aws/VPC/vpc-naming-conventions.html#)
+- [Cloud Conformity EC2](https://www.cloudconformity.com/knowledge-base/aws/EC2/ec2-instance-naming-conventions.html#)
