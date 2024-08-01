@@ -21,19 +21,19 @@ improving clarity in cases of potential ambiguity and enhancing aesthetic and pr
 -----------
 ## Default Pattern Components
 
-**Region Code**     
+**{RegionCode}**     
 ``(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)``
 
-**Availability Zone Code**  
+**{AvailabilityZoneCode}**  
 ``([1-2]{1})([a-c]{1})``
 
-**Environment Code**    
+**{EnvironmentCode}**    
 ``(dev|test|stg|prod)`` 
 
-**Application Code**     
+**{ApplicationCode}**     
 ``([a-z0-9\-]+)`` 
 
-**Subnet Route Code**   
+**{SubnetRouteCode}**   
 ``(public|private)``
 
 -----------
@@ -59,16 +59,16 @@ vpc_us-west-2_prod_web-app-stack
 ## Subnet Naming Conventions
 
 **Default Pattern Format**      
-``subnet-RegionCode-AvailabilityZoneCode-SubnetRouteCode-EnvironmentCode-ApplicationStackCode``
+``subnet_{RegionCode}_{AvailabilityZoneCode}_{SubnetRouteCode}_{EnvironmentCode}_{ApplicationStackCode}``
 
 **RegExp**      
-``^subnet-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-([1-2]{1})([a-c]{1})-(public|private)-(dev|test|stg|prod)-([a-z0-9\-]+)$``
+``^subnet_(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)_([1-2]{1})([a-c]{1})_(public|private)_(dev|test|stg|prod)_([a-z0-9\-]+)$``
 
 **Examples**            
 <span style="color:silver;">
-subnet-us-east-1-2a-public-prod-web-app-stack
+subnet_us-east-1_2a_public_prod_web-app-stack
 <br>
-subnet-us-west-1-2b-private-prod-database-stack
+subnet_us-west-1_2b_private_prod_database-stack
 </span>
 
 -----------
