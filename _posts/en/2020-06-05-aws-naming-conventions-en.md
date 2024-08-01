@@ -151,16 +151,16 @@ ecs-task_us-east-1_prod_micro-app_v1
 ## ECS Service Definition Naming Conventions
 
 **Default Pattern Format**      
-``ecs-service_{RegionCode}_{EnvironmentCode}_{ApplicationCode}_{Vesion}``
+``ecs-service_{RegionCode}_{EnvironmentCode}_{ApplicationCode}``
 
 **RegExp**      
-``^ecs-service_(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)_(dev|test|stg|prod)_([a-z0-9\-]+)_v1$``
+``^ecs-service_(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)_(dev|test|stg|prod)_([a-z0-9\-]+)$``
 
 **Examples**        
 <span style="color:silver;">
-ecs-service_us-east-1_prod_tomcat_v1
+ecs-service_us-east-1_prod_tomcat
 <br>
-ecs-service_us-east-1_prod_micro-app_v1
+ecs-service_us-east-1_prod_micro-app
 </span>
 
 
