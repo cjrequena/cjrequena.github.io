@@ -148,7 +148,7 @@ ecs-task_us-east-1_prod_tomcat_v1
 ecs-task_us-east-1_prod_micro-app_v1
 </span>
 
-## ECS Service Definition Naming Conventions
+## ECS Service Naming Conventions
 
 **Default Pattern Format**      
 ``ecs-service_{RegionCode}_{EnvironmentCode}_{ApplicationCode}``
