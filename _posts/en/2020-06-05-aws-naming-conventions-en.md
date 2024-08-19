@@ -44,34 +44,34 @@ improving clarity in cases of potential ambiguity and enhancing aesthetic and pr
 
 **Default Pattern Format**  
 
-``vpc_{RegionCode}_{EnvironmentCode}_{ApplicationCode}``
+``vpc-{RegionCode}-{EnvironmentCode}-{ApplicationCode}``
 
 **RegExp**  
 
-``^vpc_(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)_(dev|test|stg|prod)_([a-z0-9\-]+)$``
+``^vpc-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-(dev|test|stg|prod)-([a-z0-9\-]+)$``
 
 **Examples**    
 
 <span style="color:silver;">
-vpc_us-east-1_prod_big-data-app-stack
+vpc-us-east-1-prod-bigdataappstack
 <br>
-vpc_us-west-2_prod_web-app-stack
+vpc-us-west-2-prod-webappstack
 </span>
 
 -----------
 ## Subnet Naming Conventions
 
 **Default Pattern Format**      
-``subnet_{RegionCode}_{AvailabilityZoneCode}_{SubnetRouteCode}_{EnvironmentCode}_{ApplicationStackCode}``
+``subnet-{RegionCode}-{AvailabilityZoneCode}-{SubnetRouteCode}-{EnvironmentCode}-{ApplicationStackCode}``
 
 **RegExp**      
-``^subnet_(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)_([1-2]{1})([a-c]{1})_(public|private)_(dev|test|stg|prod)_([a-z0-9\-]+)$``
+``^subnet-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-([1-2]{1})([a-c]{1})-(public|private)-(dev|test|stg|prod)-([a-z0-9\-]+)$``
 
 **Examples**            
 <span style="color:silver;">
-subnet_us-east-1_2a_public_prod_web-app-stack
+subnet-us-east-1-2a-public-prod-webappstack
 <br>
-subnet_us-west-1_2b_private_prod_database-stack
+subnet-us-west-1-2b-private-prod-databasestack
 </span>
 
 -----------
@@ -139,16 +139,16 @@ ecs-cluster_us-east-1_prod_micro-app
 ## ECS Task Definition Naming Conventions
 
 **Default Pattern Format**      
-``ecs-taskdef_{RegionCode}_{EnvironmentCode}_{ApplicationCode}_{Vesion}``
+``ecstd-{RegionCode}-{EnvironmentCode}-{ApplicationCode}-{Vesion}``
 
 **RegExp**      
-``^ecs-taskdef_(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)_(dev|test|stg|prod)_([a-z0-9\-]+)_v1$``
+``^ecstd-(us-east-1|us-west-1|us-west-2|eu-west-1|eu-central-1|ap-northeast-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|sa-east-1)-(dev|test|stg|prod)-([a-z0-9\-]+)-v1$``
 
 **Examples**        
 <span style="color:silver;">
-ecs-taskdef_us-east-1_prod_tomcat_v1
+ecstd-us-east-1-prod-tomcat-v1
 <br>
-ecs-taskdef_us-east-1_prod_micro-app_v1
+ecstd-us-east-1-prod-micro_app-v1
 </span>
 
 ## ECS Service Naming Conventions
