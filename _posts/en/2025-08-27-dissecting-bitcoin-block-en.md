@@ -73,7 +73,7 @@ def decode_block_header(hex_header):
         'version': version,
         'previous_block_hash': prev_block,
         'merkle_root': merkle_root,
-        'timestamp': f"{timestamp} ({datetime.datetime.utcfromtimestamp(timestamp)})",
+        'timestamp': f"{timestamp} ({datetime.fromtimestamp(timestamp, UTC).strftime('%Y-%m-%d %H:%M:%S %Z')})",
         'bits': bits,
         'nonce': nonce
     }
