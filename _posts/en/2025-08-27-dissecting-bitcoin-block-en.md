@@ -94,8 +94,8 @@ The 80-byte header contains six key fields:
 | Field               | Size (bytes) | Description                                      | Endianness                     |
 | ------------------- | ------------ | ------------------------------------------------ | ------------------------------ |
 | Version             | 4            | Block version number indicating validation rules | [Little-endian](https://learnmeabitcoin.com/technical/general/little-endian/)                 |
-| Previous Block Hash | 32           | SHA-256 hash of the preceding block's header     | natural byte order |
-| Merkle Root         | 32           | Hash representing all transactions in the block  | natural byte order |
+| Previous Block Hash | 32           | SHA-256 hash of the preceding block's header     | [Little-endian](https://learnmeabitcoin.com/technical/general/little-endian/) |
+| Merkle Root         | 32           | Hash representing all transactions in the block  | [Little-endian](https://learnmeabitcoin.com/technical/general/little-endian/) |
 | Timestamp           | 4            | Unix epoch time when mining began                | [Little-endian](https://learnmeabitcoin.com/technical/general/little-endian/)                 |
 | Bits (nBits)        | 4            | Compact representation of the difficulty target  | [Little-endian](https://learnmeabitcoin.com/technical/general/little-endian/)                 |
 | Nonce               | 4            | Counter used in mining to find valid hashes      | [Little-endian](https://learnmeabitcoin.com/technical/general/little-endian/)                |
