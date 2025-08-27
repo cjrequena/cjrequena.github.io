@@ -14,6 +14,67 @@ tags:
 </div>
 <br>
 
+
+## Overview
+
+A **block** in Bitcoin is like a page in a ledger that records and secures recent transactions. Each block is linked to the previous one, forming the **blockchain**.
+
+**Structure of a Bitcoin Block**
+
+A Bitcoin block has two main parts:
+
+**Block Header**
+
+The metadata of the block, containing:
+
+* **Version** → Protocol version used to create the block.
+* **Previous Block Hash** → Cryptographic hash of the previous block, linking the chain.
+* **Merkle Root** → A hash representing all transactions in the block, built via a *Merkle Tree*.
+* **Timestamp** → Approximate creation time of the block.
+* **Difficulty Target (nBits)** → The target value that the block hash must meet (controls mining difficulty).
+* **Nonce** → A 32-bit number miners vary to find a valid block hash.
+
+**Block Body**
+
+* Contains the **list of transactions** included in the block.
+* Starts with a **coinbase transaction**:
+
+  * The first transaction in every block.
+  * Rewards the miner with new Bitcoin (block subsidy + transaction fees).
+
+**Block Size & Limits**
+
+* Current average block size: \~1–2 MB (due to SegWit optimization).
+* Can hold a few thousand transactions depending on size.
+
+**Block Reward**
+
+* New bitcoins are created via the **block reward** in the coinbase transaction.
+* Halves every **210,000 blocks (\~4 years)**.
+* Started at **50 BTC** (2009) → now **6.25 BTC** (until 2024 halving → 3.125 BTC).
+
+**Block Time**
+
+* Target: **10 minutes** per block.
+* Achieved by adjusting difficulty every **2016 blocks (\~2 weeks)** so the average time stays near 10 minutes.
+
+**Block Validation**
+
+* A valid block must:
+
+  * Have a hash below the difficulty target (proof-of-work).
+  * Contain valid, non-duplicate transactions.
+  * Correctly reference the previous block.
+  * Correctly compute the Merkle root.
+
+**Blockchain Linking**
+
+* Each block references the **hash of the previous block**.
+* This makes the blockchain **immutable**:
+
+  * Changing one block invalidates all subsequent blocks (since the hashes break).
+
+
 ## Block Header
 
 At the top of every Bitcoin block is an **80-byte (160 hex character) block header** that summarizes all the data in the block. This header is crucial for:
