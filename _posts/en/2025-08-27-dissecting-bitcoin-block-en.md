@@ -21,7 +21,7 @@ A **block** in Bitcoin is like a page in a ledger that records and secures recen
 
 **Structure of a Bitcoin Block**
 
-A Bitcoin block has two main parts:
+A Bitcoin block has two main parts **The Block Header and The Block Body**
 
 **Block Header**
 
@@ -74,6 +74,7 @@ The metadata of the block, containing:
 
   * Changing one block invalidates all subsequent blocks (since the hashes break).
 
+---
 
 ## Block Header
 
@@ -170,6 +171,8 @@ nonce: 2573394689
 - Hash fields (Previous Block Hash and Merkle Root) need byte reversal for proper display
 - The timestamp represents when mining began, not necessarily when the block was found
 
+---
+
 ## Block Body
 
 The **block body** contains the transactions that the block commits to. It immediately follows the 80-byte block header.
@@ -259,6 +262,8 @@ curl 'https://blockchain.info/rawblock/1?format=hex' | tail -c +161 > block-1-bo
 ```bash
 0101000000010000000000000000000000000000000000000000000000000000000000000000ffffffff0704ffff001d0104ffffffff0100f2052a0100000043410496b538e853519c726a2c91e61ec11600ae1390813a627c66fb8be7947be63c52da7589379515d4e0a604f8141781e62294721166bf621e73a82cbf2342c858eeac00000000
 ```
+
+---
 
 ## Decoding the genesis block.
 
