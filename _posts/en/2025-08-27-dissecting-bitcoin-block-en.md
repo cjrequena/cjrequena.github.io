@@ -17,9 +17,17 @@ tags:
 
 ## Overview
 
-A **block** in Bitcoin is like a page in a ledger that records and secures recent transactions. Each block is linked to the previous one, forming the **blockchain**.
+A **block** is the basic building unit of a **blockchain**, holding a group of verified transactions along with cryptographic references to preceding blocks. Together, they create an unchangeable ledger within the blockchain network.
 
-**Structure of a Bitcoin Block**
+In essence, each block serves as a digital container that securely and permanently records transaction information for the entire system.
+
+A **block** in Bitcoin is like a page in a ledger that records and secures recent transactions. 
+
+Each block is linked to the previous one, forming the **blockchain**.
+
+---
+
+## Structure of a Bitcoin Block
 
 A Bitcoin block has two main parts **The Block Header and The Block Body**
 
@@ -34,6 +42,7 @@ The metadata of the block, containing:
 * **Difficulty Target (nBits)** → The target value that the block hash must meet (controls mining difficulty).
 * **Nonce** → A 32-bit number miners vary to find a valid block hash.
 
+
 **Block Body**
 
 * Contains the **list of transactions** included in the block.
@@ -41,6 +50,10 @@ The metadata of the block, containing:
 
   * The first transaction in every block.
   * Rewards the miner with new Bitcoin (block subsidy + transaction fees).
+
+---
+
+## Block Constraints
 
 **Block Size & Limits**
 
