@@ -266,10 +266,129 @@ Use an unbiased method instead:
 * **SHA-256 of the rolls** (recommended)
 * **Base-6 → binary conversion** done carefully
 * **Rejection sampling**
+* **Dice whose face count *is* a power of two** — a D8 gives a clean 3 bits and a D16 a clean 4 bits, which is exactly what Method 3 below exploits
 
 ---
 
-## 9. Complete BIP39 Pipeline
+## 9. Method 3 — D8 / D16 / D16 Dice (Direct Word Indexing)
+
+### 9.1 Why This Combination Works
+
+The whole problem with a D6 is that `6` is not a power of two. That problem disappears entirely when every die **is** a power of two:
+
+| Die   | Faces     | Bits per roll |
+| ----- | --------- | ------------- |
+| D8    | `8 = 2³`  | 3 bits        |
+| D16   | `16 = 2⁴` | 4 bits        |
+
+And:
+
+```
+3 + 4 + 4 = 11 bits  →  exactly one BIP39 word
+```
+
+So **one D8 and two D16 dice, rolled together, select one word directly**. No base conversion, no SHA-256 over the rolls, no rejection sampling, no wasted states. Every outcome maps to exactly one of the 2048 words, and every word is equally likely.
+
+This is the method documented by Blockstream for generating a recovery phrase offline:
+<https://help.blockstream.com/generate-recovery-phrase-offline-d8-d16-d16>
+
+### 9.2 The Dice
+
+Label the three dice and **always read them in the same order**:
+
+| Position | Die  | Range  |
+| -------- | ---- | ------ |
+| First    | D8   | 1–8    |
+| Second   | D16  | 1–16   |
+| Third    | D16  | 1–16   |
+
+Use three visually distinct dice (different colours) so you can throw all three at once and still read them unambiguously. Order matters — swapping *Second* and *Third* gives a different word.
+
+### 9.3 The Index Formula
+
+```
+index = (First − 1) × 2⁸  +  (Second − 1) × 2⁴  +  (Third − 1)
+      = (First − 1) × 256 +  (Second − 1) × 16  +  (Third − 1)
+```
+
+The range is exactly right, with nothing left over:
+
+```
+minimum:  (1,1,1)     →  0×256 + 0×16 + 0   =    0    (abandon)
+maximum:  (8,16,16)   →  7×256 + 15×16 + 15 = 2047    (zoo)
+```
+
+> **Dice numbered from zero.** Some D16 (hex) dice are labelled `0–F` and some D8 are labelled `0–7`. If a die already starts at `0`, use its face value directly and drop the `− 1` for that die.
+
+Seen as bits, the three dice simply fill the 11-bit word index from left to right:
+
+```
+First  (D8)  → 3 bits   b10 b9 b8
+Second (D16) → 4 bits   b7 b6 b5 b4
+Third  (D16) → 4 bits   b3 b2 b1 b0
+```
+
+**Worked example** — you roll `First = 6`, `Second = 13`, `Third = 2`:
+
+```
+(6 − 1) × 256  +  (13 − 1) × 16  +  (2 − 1)
+= 1280 + 192 + 1
+= 1473
+
+binary:  101  1100  0001   →   10111000001
+```
+
+Index `1473` is the **1474th** word in the BIP39 list, because index `0` is the first word (`abandon`).
+
+### 9.4 How Many Rolls You Need
+
+| Seed length | Words | Roll sets    | Total die throws |
+| ----------- | ----- | ------------ | ---------------- |
+| 12 words    | 12    | 12 sets of 3 | 36               |
+| 24 words    | 24    | 24 sets of 3 | 72               |
+
+Compare that with `256` coin flips or `~100` D6 rolls plus a hand-verified SHA-256. Each set of three is also **independently checkable**: if you mis-record one word, only that word is wrong, and the rest of the phrase is unaffected.
+
+### 9.5 The Last Word Is Not Free
+
+This is the one catch, and it is easy to get wrong.
+
+Because this method produces words *directly*, it bypasses the "entropy → checksum → split" pipeline. Words `1…11` (or `1…23`) are pure entropy and can be taken exactly as rolled. The **final** word cannot, because part of it is the checksum:
+
+| Seed length | Total bits | Final word = entropy bits + checksum bits |
+| ----------- | ---------- | ----------------------------------------- |
+| 12 words    | 132        | **7** entropy bits + **4** checksum bits  |
+| 24 words    | 264        | **3** entropy bits + **8** checksum bits  |
+
+So roll the last set normally, then keep only the leading bits of that provisional word and let the checksum determine the rest:
+
+* **12 words** — keep the **first 7 bits** of the provisional 12th word. `2⁴ = 16` words share that prefix; exactly **one** of them has a valid checksum.
+* **24 words** — keep the **first 3 bits** of the provisional 24th word. `2⁸ = 256` words share that prefix; exactly **one** of them has a valid checksum.
+
+Those leading bits are not decoration — they are real entropy, and they are what completes the count:
+
+```
+12 words:  11 words × 11 bits + 7 bits = 121 + 7 = 128 bits
+24 words:  23 words × 11 bits + 3 bits = 253 + 3 = 256 bits
+```
+
+Use an **offline, trusted** BIP39 tool or hardware wallet to work out which candidate is valid. Most hardware wallets do this for you: you type the first 11 (or 23) words and the device only offers valid final words — pick the one matching your rolled prefix.
+
+> **Do not just re-roll until the last word happens to be valid.** It is technically unbiased (`2⁷ = 128` of the 2048 words are valid last words for a 12-word phrase, `2³ = 8` for a 24-word phrase), but it needs an average of 16 re-rolls for 12 words and **256** for 24 words — and you still need a checksum tool to know when to stop.
+
+### 9.6 Why This Method Is Worth the Extra Dice
+
+| | |
+| --- | --- |
+| **No bias, by construction** | 8 and 16 are powers of two, so no state is ever wasted or rejected. |
+| **No hashing of entropy** | SHA-256 is only needed for the single final word, not for the entropy itself. |
+| **Fewest physical actions** | 72 throws for a 24-word seed, versus ~100 rolls or 256 flips. |
+| **Auditable** | Each word traces back to three recorded numbers you can re-check one at a time. |
+| **Trade-off** | You need specialist dice, and a fair D16 is harder to source and verify than a fair coin. |
+
+---
+
+## 10. Complete BIP39 Pipeline
 
 ### Coin Method
 
@@ -303,23 +422,44 @@ SHA-256  →  8 checksum bits
 24 BIP39 words
 ```
 
+### D8/D16/D16 Method
+
+```
+24 sets of (D8, D16, D16)
+        ↓
+index = (D8−1)×256 + (D16−1)×16 + (D16−1)
+        ↓
+24 word indices, 0–2047
+        ↓
+words 1–23 kept as rolled
+        ↓
+word 24: keep first 3 bits,
+last 8 bits = SHA-256 checksum
+        ↓
+24 BIP39 words
+```
+
 ---
 
-## 10. Security Comparison
+## 11. Security Comparison
 
-| Property                | Coin        | Dice          |
-| ----------------------- | ----------- | ------------- |
-| Entropy per event       | 1 bit       | ~2.585 bits   |
-| Simplicity of encoding  | Excellent   | Moderate      |
-| Chance of human error   | Lower       | Higher        |
-| Physical speed          | Slower      | Faster        |
-| Mathematical complexity | Low         | Higher        |
+| Property                | Coin      | Dice (D6)                | D8/D16/D16              |
+| ----------------------- | --------- | ------------------------ | ----------------------- |
+| Entropy per event       | 1 bit     | ~2.585 bits              | 3–4 bits                |
+| Events for 24 words     | 256 flips | ~100 rolls               | 72 throws (24 × 3)      |
+| Simplicity of encoding  | Excellent | Moderate                 | Excellent               |
+| Bias risk               | None      | Real, if done naïvely    | None, by construction   |
+| Hashing required        | Checksum  | Entropy **and** checksum | Final word only         |
+| Chance of human error   | Lower     | Higher                   | Low                     |
+| Physical speed          | Slower    | Faster                   | Fastest                 |
+| Mathematical complexity | Low       | Higher                   | Low                     |
+| Equipment               | Any coin  | Any die                  | Specialist D8/D16 dice  |
 
-Both are secure **when done correctly**. The coin trades speed for simplicity; the die trades simplicity for speed.
+All three are secure **when done correctly**. The coin trades speed for simplicity; the D6 trades simplicity for speed; the D8/D16/D16 set buys both back at the cost of needing dice you cannot pick up in any shop.
 
 ---
 
-## 11. Best Practices
+## 12. Best Practices
 
 ### Use a fair physical source
 
@@ -355,7 +495,7 @@ Every wallet must have its own unique randomness. Do **not**:
 
 ---
 
-## 12. The Role of the Checksum
+## 13. The Role of the Checksum
 
 A valid BIP39 phrase carries built-in error detection. If a single word is wrong, the checksum almost always fails and the wallet rejects the phrase as invalid.
 
@@ -368,7 +508,7 @@ The real security comes entirely from the quality of the **random entropy**. A c
 
 ---
 
-## 13. Summary
+## 14. Summary
 
 The entire process, end to end:
 
@@ -388,6 +528,6 @@ Map numbers 0–2047 to words
 BIP39 mnemonic phrase
 ```
 
-A **coin** yields randomness directly as binary — simple, slow, and hard to get wrong. A **die** yields more entropy per action but requires careful, unbiased conversion (ideally by hashing the rolls with SHA-256).
+A **coin** yields randomness directly as binary — simple, slow, and hard to get wrong. A **D6** yields more entropy per action but requires careful, unbiased conversion (ideally by hashing the rolls with SHA-256). A **D8 plus two D16** skips the conversion entirely: three throws are 11 bits are one word, with the only special case being the checksum-bearing final word.
 
 Performed correctly, both produce a mnemonic that is every bit as secure as one from a hardware RNG — with the added assurance that *you* watched the randomness happen.
